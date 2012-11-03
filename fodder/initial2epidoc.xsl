@@ -120,7 +120,16 @@
                                     <settlement>NY</settlement>
                                     <institution>CU</institution>
                                     <repository>Butl</repository>
-                                    <idno><xsl:value-of select="$inum"/></idno>
+                                    <idno>
+                                        <xsl:choose>
+                                            <xsl:when test="not(contains($inum, 'unnumbered'))">
+                                                <xsl:value-of select="$inum"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:comment>cannot generate number because there was no valid value in the initial spreadsheet</xsl:comment>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </idno>
                                     <xsl:comment><xsl:text> use altIdentifier elements, as appropriate, to provide information about other </xsl:text>
                                         <xsl:value-of select="$newline"/>
                                         <xsl:text>                       inventory numbers, past and present </xsl:text>
