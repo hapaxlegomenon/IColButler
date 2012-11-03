@@ -3,6 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:foo="http://www.nowhere.com/foo"
     xmlns:saxon="http://saxon.sf.net/"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs foo saxon"
     version="2.0">
@@ -66,7 +67,7 @@
 <xsl:text>
     
 </xsl:text>
-            <TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
                 <teiHeader>
                     <fileDesc>
                         <titleStmt>
@@ -436,9 +437,11 @@
                         </sourceDesc>
                     </fileDesc>
                     <encodingDesc>
-                        <projectDesc>
-                            <p></p>
-                        </projectDesc>
+                        <xi:include href="http://dev.stg.brown.edu/projects/usepigraphy/xml/include_taxonomies.xml">
+                            <xi:fallback>
+                                <p>Taxonomies for US Epigraphy controlled values</p>
+                            </xi:fallback>
+                        </xi:include>
                     </encodingDesc>
                     <revisionDesc>
                         <change when="{current-dateTime()}" who="TRE">programmatically converted from inital spreadsheet</change>

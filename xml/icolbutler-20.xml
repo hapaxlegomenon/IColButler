@@ -2,7 +2,7 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml"
    schematypens="http://relaxng.org/ns/structure/1.0"?>
     
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -111,12 +111,14 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc>
-            <p/>
-         </projectDesc>
+         <xi:include href="http://dev.stg.brown.edu/projects/usepigraphy/xml/include_taxonomies.xml">
+            <xi:fallback>
+               <p>Taxonomies for US Epigraphy controlled values</p>
+            </xi:fallback>
+         </xi:include>
       </encodingDesc>
       <revisionDesc>
-         <change when="2012-11-03T17:24:56.851-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+         <change when="2012-11-03T17:45:58.204-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
