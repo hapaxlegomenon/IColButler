@@ -45,6 +45,11 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
+        <xsl:variable name="usepnum">
+            <xsl:if test="not(contains($inum, 'unnumbered'))">
+                <xsl:text>NY.NY.CU.Butl.L.</xsl:text><xsl:value-of select="$inum"/>
+            </xsl:if>
+        </xsl:variable> 
         <xsl:variable name="inscid">
             <xsl:text>icolbutler-</xsl:text><xsl:value-of select="$inum"/><xsl:text></xsl:text>
         </xsl:variable>
@@ -81,7 +86,9 @@
                         <publicationStmt>
                             <authority>Columbia University</authority>
                             <idno type="filename"><xsl:value-of select="$inscid"/></idno>
-                            <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.{$inum}">NY.NY.CU.Butl.L.<xsl:value-of select="$inum"/></idno>
+                            <xsl:if test="$usepnum!=''">
+                                <idno type="USEpigraphy" xml:id="{$usepnum}"><xsl:value-of select="$usepnum"/></idno>
+                            </xsl:if>
                             <xsl:value-of select="$newline"/>
                             <xsl:comment> add any other id numbers here </xsl:comment>
                             <xsl:value-of select="$newline"/>
