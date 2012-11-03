@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<root xmlns="http://www.nowhere.com/foo">
     <row>
-        <Number>1</Number>
+        <Number>1</Number> <!-- use to generate a unique ID -->
         <Object_Name>tombstone of C. Clatius Rufus</Object_Name>
         <Medium>marble</Medium>
         <Transcription>DIS . MANIBUS . S[ACRUM] / C . CLATIO . RUFO . CO[- - -] / CARISSIMO . SUO [BENE] / MERENTI . D[- - -] / AUREL[IA] / [C]</Transcription>
         <Publication>CIL 6.34842; Olcott, AJA 3 (1899) 230 no.1</Publication>
         <Provenance>Via Ostiensis</Provenance>
         <Translation>Sacred to the shades of the dead. Aurelia [set this up] to Gaius Clatius Rufus, her dearest, well-deserving [husband].</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>20.8 x 5.4-11.8 x 2.5. Projected original surface perhaps 30 x 14.</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>20.8 x 5.4-11.8 x 2.5. Projected original surface perhaps 30 x 14.</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century A.D.</Suggested_date>
     </row>
     <row>
@@ -19,7 +19,7 @@
         <Publication>CIL 6.34307; Olcott AJA 3 (1899) 230-1 no 3 (ph.)</Publication>
         <Provenance>Found on Via Ostiensis, near St. Paul's.</Provenance>
         <Translation>For the shades of the dead.  Aemilius Eutychus build this for Fabius Anicetus, a well deserving friend.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>29 x 16 x 4</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>29 x 16 x 4</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Mid 1st century to 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -30,7 +30,7 @@
         <Publication>CIL 6.35576; Olcott, AJA 3 (1899) 231 no.4</Publication>
         <Provenance>Found in Via Ostiensis, near St. Paul's.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>12.5 x 12 x 1.75</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>12.5 x 12 x 1.75</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE (both sides).</Suggested_date>
     </row>
     <row>
@@ -41,7 +41,7 @@
         <Publication>CIL 6.35599; Olcott, AJA 3 (1899) 231-32 no.6 (ph)</Publication>
         <Provenance>Found on via Ostiensis, near St. Paul's.</Provenance>
         <Translation>Sacred to the shades of the dead.  For Julia Pallas daughter of Gaius, who lived thirteen years and six months, the sweetest and most greatly missed daughter, her father Gaius Julius Hagnus made this.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>29.5 x 28 x 2.5-2.8</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>29.5 x 28 x 2.5-2.8</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -52,7 +52,7 @@
         <Publication>CIL 6.35028; Olcott, AJA 3 (1899) 230-1 no.7</Publication>
         <Provenance>found on the Via Ostiensis, near St. Paul's.</Provenance>
         <Translation>For the shade of Marcus Cornelius Faustus, Fufia Prisca his wife [made this].</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>21 x 13 x 1.6</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>21 x 13 x 1.6</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -63,7 +63,7 @@
         <Publication>CIL 6.35251; Olcott, AJA 3 (1899) 232 no.8</Publication>
         <Provenance>found on the Via Ostiensis, near St. Paul's.</Provenance>
         <Translation>To the Shades of the Dead. To Fes(tus?), Plot(ina?) made this, (a slave for 4 years? To a patron?)</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>18.4 x 26.3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>18.4 x 26.3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>mid-1st -2nd century A.D.</Suggested_date>
     </row>
     <row>
@@ -74,7 +74,7 @@
         <Publication>CIL 6.35763; Olcott, AJA 3 (1899) 232-33 no. 9 (ph)</Publication>
         <Provenance>found on the Via Ostiensis, near St. Paul's.</Provenance>
         <Translation>Lucius Trebius Optatus [set this up for] his most dutiful wife, Magia Pieris (or for Magia and the Muse?).</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>14.5 x 11.8. Projected width at least 16.2.</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>14.5 x 11.8. Projected width at least 16.2.</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century A.D.</Suggested_date>
     </row>
     <row>
@@ -85,7 +85,7 @@
         <Publication>CIL 6.35162; Olcott AJA 3 (1899) 233 no.11</Publication>
         <Provenance>found on the Via Ostiensis, near St. Paul's.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>16 x 7.5 x 2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>16 x 7.5 x 2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Late 1st century BCE to early 1st century CE.</Suggested_date>
     </row>
     <row>
@@ -96,7 +96,7 @@
         <Publication>CIL 6.35145; Olcott AJA 3 (1899) 234 no.14 (ph)</Publication>
         <Provenance>found on the Via Ostiensis, near St. Paul's. Broken deliberately by workmen!</Provenance>
         <Translation>Ennia Secunda, freedwoman of Gaia, lived for 40 years. Lucius Ovius Apollonius, the freedman of Lucius, made this for his most dearly beloved companion and for himself. Ovia Agile lived 26 years.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>59 x 15 x 2.6</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>59 x 15 x 2.6</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -107,7 +107,7 @@
         <Publication>CIL 6.35696; Olcott, AJA 3 (1899) 234-35 no.16 (ph.)</Publication>
         <Provenance>Via Ostiensis</Provenance>
         <Translation>To the Shades of the Dead, Salute Euhodia! Licinius Aphrodisius made this for Licinia Euhodia a well deserving freewoman.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>29 x 19 x 2.7</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>29 x 19 x 2.7</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>2nd to 3rd century CE.</Suggested_date>
     </row>
     <row>
@@ -118,7 +118,7 @@
         <Publication>CIL 6.34541; Olcott, AJA 3 (1899) 235 no.18</Publication>
         <Provenance>From Via Ostiensis, Rome.</Provenance>
         <Translation>The Dead Atia Asia.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>36 x 24 x 3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>36 x 24 x 3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Mid 1st century BCE to 1st century CE.</Suggested_date>
     </row>
     <row>
@@ -129,7 +129,7 @@
         <Publication>CIL 6.35066; Olcott AJA 3 (1899) 235 no.19</Publication>
         <Provenance>found on the Via Ostiensis, near St. Paul's.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>33 x 26.3 x 2.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>33 x 26.3 x 2.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -140,7 +140,7 @@
         <Publication>CIL 06, 36498; Olcott, AJA 3 (1899): 236, no. 21</Publication>
         <Provenance>found on the Via Ostiensis, near St. Paul's.</Provenance>
         <Translation>To the Shades of the Dead. Marcus Valerius Sosimus (?)... to Valeria...his (well-deserving wife)</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>Estimated radius: 17-18. Thickness: 2.5-4.0.</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>Estimated radius: 17-18. Thickness: 2.5-4.0.</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>mid-1st - early-2nd century A.D.</Suggested_date>
     </row>
     <row>
@@ -151,7 +151,7 @@
         <Publication>CIL 06, 36499;  Olcott, AJA 3 (1899): 236, no. 22</Publication>
         <Provenance>found on the Via Ostiensis, near St. Paul's.</Provenance>
         <Translation>To the Shades of the Dead.  Valeria Lucia the daughter of Castres lived four years, and thirteen days.  They made this for her, who was well deserving.  Salute Valeria!</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>25.5 x 26 x 6</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>25.5 x 26 x 6</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -162,7 +162,7 @@
         <Publication>CIL 6.37179; Olcott, AJA 3 (1899) 237 no. 24</Publication>
         <Provenance>Via Ostiensis</Provenance>
         <Translation>The bones of Lucius Octavius freedman of Lucius and Lysimachus Publicus lie here.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>24.2 x 12.2 x 1.4</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>24.2 x 12.2 x 1.4</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -173,7 +173,7 @@
         <Publication>CIL 06, 35473;  Olcott, AJA 3 (1899): 237, no. 25</Publication>
         <Provenance>Via Ostiensis</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>34 x 11 x 3.2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>34 x 11 x 3.2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -184,7 +184,7 @@
         <Publication>CIL 06, 36577;  Olcott, AJA 3 (1899): 238-39, no. 27</Publication>
         <Provenance>found on the Via Ostiensis, near St. Paul's.</Provenance>
         <Translation>To the Shades of the Dead.  Marcus Ulpius the First, made this for his foster son well deserving Marcus Ulpius the Second who lived 13 years and 10 (or more) days.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>23 x 42 x 4.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>23 x 42 x 4.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -195,7 +195,7 @@
         <Publication>CIL 6.36446; Olcott, AJA 3 (1899) 236-37 no.23 (ph)</Publication>
         <Provenance>found on the Via Ostiensis, near St. Paul's.</Provenance>
         <Translation>To Ni[?]...Gaius... and Trebonia... parents (made this for) their freedmen and their freedmen's descendants.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>13.3 x 22.3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>13.3 x 22.3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st-2nd century A.D.</Suggested_date>
     </row>
     <row>
@@ -206,7 +206,7 @@
         <Publication>Olcott, AJA 3 (1899) 239 no. 28</Publication>
         <Provenance>via Ostiensis</Provenance>
         <Translation>...made this for a dear brother....</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>13 x 12.5 x 2.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>13 x 12.5 x 2.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century A.D.?  Bodel and Tracy give 1st to 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -217,7 +217,7 @@
         <Publication>Fragment of CIL 06, 36112; Gatti Not. Scav. 1898, p.166.</Publication>
         <Provenance>CIL: fragmentum...repertum in vinea Tancioni in collibus Monteverde extra portam Portuensam / Olcott: from via Ostiensis</Provenance>
         <Translation>...made this both for him-/herself and for Ambasia Nepotilla, his / her daughter.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>25.4 x 21 x 3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>25.4 x 21 x 3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st to 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -228,7 +228,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from Via Ostiensis</Provenance>
         <Translation>Aurelius Eutchus prepared this for his wife Silania Euterpe who lived... years...</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>24 x 23</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>24 x 23</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -239,7 +239,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from Via Ostiensis</Provenance>
         <Translation>To the Shades of the Dead.  Claudia Data made this for her well deserving patrons.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>28.8 x 13.4 x 3.5-4</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>28.8 x 13.4 x 3.5-4</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -250,7 +250,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from Via Ostiensis</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>11.8 x 12.9 x 1.8-1.6</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>11.8 x 12.9 x 1.8-1.6</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -261,7 +261,7 @@
         <Publication>CIL 6.38515; Olcott, AJA 10 (1906) 156 no.4</Publication>
         <Provenance>From Via Ostiensis, near S. Paolo fuori le Mura.</Provenance>
         <Translation>To the Shades of the Dead.  Julia Boluptas, lived 23 years, three months, and 24 days.  Varia Rodope made this for her who was dear and well deserving.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>36.3 x 42 x 2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>36.3 x 42 x 2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -272,7 +272,7 @@
         <Publication>unpublished</Publication>
         <Provenance>From Via Ostiensis</Provenance>
         <Translation>Publius Maecius Pamphilus and Julia Athena the freedwoman of Publius.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>28.5 x 11.6 x 2-2.3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>28.5 x 11.6 x 2-2.3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -283,7 +283,7 @@
         <Publication>unpublished</Publication>
         <Provenance>From Via Ostiensis, Rome.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>20 x 17 x 7.2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>20 x 17 x 7.2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -294,7 +294,7 @@
         <Publication>unpublished</Publication>
         <Provenance>From Via Ostiense, Roma.</Provenance>
         <Translation>To Shades of the Dead, Prosdocimus made this tomb for Prosdocimus of Tarsis, the best son who died at 18 years of age.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>36.5 x 38 x 3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>36.5 x 38 x 3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -305,7 +305,7 @@
         <Publication>unpublished</Publication>
         <Provenance>From Via Ostiensis, Rome</Provenance>
         <Translation>...and life to me, (with) the others there, (a stone)... my wife (Tyche?) buried me here when I was in my (fiftieth?) year.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>24.5 x 17 x 2.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>24.5 x 17 x 2.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>2nd century</Suggested_date>
     </row>
     <row>
@@ -316,7 +316,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from a columbarium "fuori Porta Salaria" now destroyed</Provenance>
         <Translation>Claudia the freedwoman of Claudia lived 17.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>25.5 x 14 x 2.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>25.5 x 14 x 2.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -327,7 +327,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from a columbarium on the Via Salaria, outside the Porta Salaria.</Provenance>
         <Translation>To the Shades of the Underworld.  Claudia made this for Lucius Gavius Amarantius, as a wife for her well deserving husband.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>32 x 19 x 1.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>32 x 19 x 1.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -338,7 +338,7 @@
         <Publication>unpublished</Publication>
         <Provenance>From a columbarium now destroyed "fuori Porta Salaria"</Provenance>
         <Translation>Marcus Julius Hedulus.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>22.2 x 12 x 2.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>22.2 x 12 x 2.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -349,7 +349,7 @@
         <Publication>CIL 06, 06992; Fiorelli, Not. Scavi 1877, p.60. 61</Publication>
         <Provenance>from Via Salaria / effossi 1877 in vinea Aquariorum.</Provenance>
         <Translation>Urgulania Psephis lived 22 years.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>18.5 x 12 x 2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>18.5 x 12 x 2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -360,7 +360,7 @@
         <Publication>CIL 06, 37809;  Olcott, AJA 10 (1906): 156, no. 5</Publication>
         <Provenance>from Via Salaria / from "fuori Porta Salaria"</Provenance>
         <Translation>To Publius Pomponius, the freedman of Publius and nomenclator (name-reminder).</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>20.8 x 12 x 2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>20.8 x 12 x 2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -371,7 +371,7 @@
         <Publication>unpublished</Publication>
         <Provenance>From Via Salaria</Provenance>
         <Translation>Gaius Plotius Antiochus Dionisia freedman of Gaius.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>20.5 x 9-7.6 x 3.5-1.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>20.5 x 9-7.6 x 3.5-1.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -382,7 +382,7 @@
         <Publication>CIL 06, 38943;  Olcott, AJA 10 (1906): 158, no. 9</Publication>
         <Provenance>from a columbarium, now destroyed, on the Via Salaria, near gate. / "Fuori Porta Salaria"</Provenance>
         <Translation>Suetonia Pelagia, the freedwoman of two men called Gaius and a woman.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>21.5 x 12.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>21.5 x 12.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -393,7 +393,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from a columbarium on the Via Salaria</Provenance>
         <Translation>Trebonia Euche?</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE?</Suggested_date>
     </row>
     <row>
@@ -404,7 +404,7 @@
         <Publication>CIL 6.20840</Publication>
         <Provenance>Olcott: "Inscription has been long known a statement that it was found on Via Salaria may be tradition. Bought off dealer Pasinati Jan 30, 1897"; CIL: "Apud Vescovalium Fea Am. Anno 1878 apud antiquarium Pasinati" etc.</Provenance>
         <Translation>Decimus Iunius Tiphus</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -415,7 +415,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from Via Salaria</Provenance>
         <Translation>Marcus Valerius Damophilus</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -426,7 +426,7 @@
         <Publication>unpublished</Publication>
         <Provenance>From Via Salaria</Provenance>
         <Translation>Aulus Pompeia Hilari freedman of Aulus, Pomeia Egloge Gnaeus Pompeius Hilarius freedman of Gnaeus.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -437,7 +437,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from Via Salaria</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>29.5 x 14 x 4</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>29.5 x 14 x 4</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -448,7 +448,7 @@
         <Publication>CIL 6.14587</Publication>
         <Provenance>Olcott: Bought from Pasinati, Jan 30, 1897; CIL: prope Romam reperta, extabat apud Pasinatium antiquarium.</Provenance>
         <Translation>To the Shades Catillia Protocte, Lucius Catillius Felix made this for his well deserving freedwoman.  The space was given by Lucia Fotine.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>23.5 x 26 x 4.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>23.5 x 26 x 4.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Late 1st to early 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -459,7 +459,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from Via Salaria</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>26.5 x 22 x 4</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>26.5 x 22 x 4</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -470,7 +470,7 @@
         <Publication>CIL 6.37849; Olcott, AJA 10 (1906) 157 no.7</Publication>
         <Provenance>from Via Salaria / "fuori Porta Salaria"</Provenance>
         <Translation>Orpheus the charioteer.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>20 x 9 x 2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>20 x 9 x 2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -481,7 +481,7 @@
         <Publication>CIL 6.35253; Gatti apud Fiorellium Not. Scav. 1888 p.282 n.893</Publication>
         <Provenance>From Olcott: "From Via Ostiensis"; CIL: reperta inter vias Salariam et Pincianam.</Provenance>
         <Translation>To the Shades of the Dead. Fidus, a father, made this for Fidus, who lived 4 years, 6 months, 16 days.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>36.6 x 19.9 x 3.4 cm deep.</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>36.6 x 19.9 x 3.4 cm deep.</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>2nd century A.D.</Suggested_date>
     </row>
     <row>
@@ -492,7 +492,7 @@
         <Publication>CIL 6.38394; Olcott, AJA 10 (1906) 158 no. 10</Publication>
         <Provenance>From a columbarium on the Via Ostiensis, near S. Paolo fuori le Mura.</Provenance>
         <Translation>Sacred to the Shades of the Dead; Marcus Fundanius Secundus lived 40 years. Istimenia Helpis made this for her well-deserving husband.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st to 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -503,7 +503,7 @@
         <Publication>CIL 6.38984; Olcott, AJA 10 (1906) 156 nt. 1</Publication>
         <Provenance>n.b. Olcott AJA 10 (1906), 156 n.1 doubts the authenticity of this inscription.</Provenance>
         <Translation>To the Juno of Trolia Musa.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>15 x 8.8 x 2.4</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>15 x 8.8 x 2.4</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st (?) century A.D.?</Suggested_date>
     </row>
     <row>
@@ -514,7 +514,7 @@
         <Publication>ZPE 73 (1988) 91-2 no.1 (Taf. 4); AE 1988, 1137</Publication>
         <Provenance>Presumably from Rome, since 11th urban cohort.</Provenance>
         <Translation>To the Shades of the Dead of Hertoria Iusta. Gaius Julius Liberalis, soldier of the 11th urban cohort, a centurion (Latini?), to his well-deserving and most pious wife, who lived with me for 10 years, 6 months, 8 day.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>39.8 x 27.6 x 2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>39.8 x 27.6 x 2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Late 1st early 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -525,7 +525,7 @@
         <Publication>ZPE 73 (1988) 96-7 no.9 (Taf. 7); AE 1988, 1145</Publication>
         <Provenance></Provenance>
         <Translation>To the Shades of the Dead. Sextus Cornelius Firmus made this for Cornelia Onesima, his freedwoman and well-deserving wife, and for himself, and for Gaius Sutorius Primo, for his freedmen and freedwomen and their descendants.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>41.5 x 25 x 3.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>41.5 x 25 x 3.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Late 1st early 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -536,7 +536,7 @@
         <Publication>CIL 06, 38976;  Olcott, AJA 10 (1906): 154, no. 1</Publication>
         <Provenance>found in 1903 excavating for a villino in Via Boncompagni opp. the (former) Pensione Giannelli, Rome. Acquired in 1903.</Provenance>
         <Translation>To the Shades of Dead.  Titacius Valens the patron and companion made this for Titacia Priscilla, his most chaste, most sacred and well-deserving wife.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>33 x 53 x 4.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>33 x 53 x 4.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Late 1st to 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -547,7 +547,7 @@
         <Publication>CIL 6.2695</Publication>
         <Provenance>in vinea Aquaria via Latina paene e regione portae.</Provenance>
         <Translation>Sacred to the Shades of the Dead.  Augustus Veranus centurian of the second praetorian cohort heir of the well deserving Marcus Augustus Januarius horseman, centurion of the 9th praetorian cohort Faventinius, who lived 20 years and performed three years and nine months of military service.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>31.5 x 38.2 x 2.8</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>31.5 x 38.2 x 2.8</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Late 2nd to 3rd century CE.</Suggested_date>
     </row>
     <row>
@@ -558,7 +558,7 @@
         <Publication>AE (1988): 1142; Aubert, Lenz, Roth, and Sheridan, ZPE 73 (1988): 95, no. 6, Taf. VI</Publication>
         <Provenance></Provenance>
         <Translation>To the Shades of the Dead of Samiaria Chrysogone. Cornelius Philo, her husband, and Chrysogonus, her son, made this for a very dear wife. Also for Aphrodite the foster-child.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>31.5 x 48 x 4</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>31.5 x 48 x 4</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Late 1st to 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -569,7 +569,7 @@
         <Publication>CIL 6.18734; Olcott, AJA 10 (1906) 155 no. 2</Publication>
         <Provenance>Found many years ago in the ruins of an ancient tomb in a field near S. Agnese, Via Nomentana. Acquired in 1901. First copied on December 6, 1873 by Pellegrini, in a manuscript report presented to the government authorities.</Provenance>
         <Translation>To the Shades of the Dead of Fundilia Crescentina. Iulius Elpideforus, a father, and Anthia Victoria, the mother, as parents made this for a most sweet daughter, who lived 5 years, 28 days.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>30.8 x 33.4 x 3.5.</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>30.8 x 33.4 x 3.5.</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Late 1st to 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -580,7 +580,7 @@
         <Publication>CIL 6.12139</Publication>
         <Provenance>apud Ficoronium?</Provenance>
         <Translation>To Apollinaris, freedman of Calvisius and Maia. He lived 18 years. Publius Calvisius Hymen, freedman of Publius and a woman and Maia, freedwoman of a woman, made this for both themselves and their own. Aulus Popillius Chrestio, freedman of Aulus; Aulus Popillius [?], son of Aulus; Popillia [Lache?] freedwoman of Aulus.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>64 x 42 x 6</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>64 x 42 x 6</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st to 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -591,7 +591,7 @@
         <Publication>CIL 35548+a</Publication>
         <Provenance>apud antiquarium quendam</Provenance>
         <Translation>To the Shades of the Dead:</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>36.5 x 29.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>36.5 x 29.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>2nd to 3rd century CE.</Suggested_date>
     </row>
     <row>
@@ -602,7 +602,7 @@
         <Publication>AE (1988): 1144;  Aubert, Lenz, Roth, and Sheridan, ZPE 73 (1988): 96, no. 8, Taf. VII</Publication>
         <Provenance></Provenance>
         <Translation>To the Shades of the Dead:  Silicianus who lived 68 years, 3 months, 11 days.  Hilaritas made this for her well deserving husband.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>29 x 28 x 3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>29 x 28 x 3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>2nd to 3rd century CE.</Suggested_date>
     </row>
     <row>
@@ -613,7 +613,7 @@
         <Publication>CIL 6.36326; Gatti, Notizie degli Scavi 1900, p.255; Bull. Comun. 1900 p.220.</Publication>
         <Provenance>"reperta in fundamentis domus via della Cordonata".</Provenance>
         <Translation>To the Shades of the Dead. Lucius Sentius Herma made this for his well-deserving, most fortunate wife, Cornelia, who lived 22 years, 8 months and 19 days.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>46.5 x 29.8 x 1.7-3.4</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>46.5 x 29.8 x 1.7-3.4</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st-2nd century A.D.</Suggested_date>
     </row>
     <row>
@@ -624,7 +624,7 @@
         <Publication>ZPE 73 (1988), 94-5 no.5 (Taf. 5); AE 1988, 1141</Publication>
         <Provenance></Provenance>
         <Translation>To the Shades of the Dead of Caecilia Ianuaria. She lived 8 years, 10 months. (I?) Marcus Caecilius Messala and Gargilia (?) Ianuaria made this for their foster-child.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Late 1st to 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -635,7 +635,7 @@
         <Publication>Fine (ed.), Sacred Realm 157 no.9, 63 fig. 3.11</Publication>
         <Provenance></Provenance>
         <Translation>Here lies young Eukapos, holy, lover of the law, may your sleep be in peace.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>24.5 x 28 x 2.8</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>24.5 x 28 x 2.8</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>4th century CE</Suggested_date>
     </row>
     <row>
@@ -646,7 +646,7 @@
         <Publication>ZPE 73 (1988), 93-4 no. 4 (Taf. 5); AE 1988, 1140</Publication>
         <Provenance>unknown</Provenance>
         <Translation>To the Shades of the Dead. To Julius Eros. He lived 6 years. Titus Flavius Gemellus, soldier of the praetorian fleet at Misenum made this for a well-deserving fellow.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>24.5 x 47.5 x 2.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>24.5 x 47.5 x 2.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>late 2nd-early 3rd century A.D.</Suggested_date>
     </row>
     <row>
@@ -657,7 +657,7 @@
         <Publication>CIL 06, 35333</Publication>
         <Provenance>apud antiquarium in via Sixtina.</Provenance>
         <Translation>To the Shades of the Dead of Fortunata. She lived 22 years, 11 months, 13 days. Atticus made this for his well-deserving fellow-slave. To the Shades of the Dead. Valeria Moschis lived 80 years. Valeria Eutichia made this for her well-deserving patroness.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>36.8 x 25.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>36.8 x 25.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st or 2nd century A.D.?</Suggested_date>
     </row>
     <row>
@@ -668,7 +668,7 @@
         <Publication>Front:  CIL 06, 10435; Reverse: 25720a</Publication>
         <Provenance>Rossi: titulus e sepulcreto quodam effosso anno 1857 in praedio vulgo Tor Marancia via Ardeatina. Dressel: apud antiquarium Pennelli in platea Campo de' Fiori.</Provenance>
         <Translation>To the Shades of the Dead. Abascantus, a father, made this for his well-deserving son, Abanscantus. To the Shades of the Dead. Savinus and Secundilla and their brothers (?), for a well-deserving son who lived 13 years.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -679,7 +679,7 @@
         <Publication>Unpublished</Publication>
         <Provenance>unknown</Provenance>
         <Translation>O you, my most pious and happy wife, who by your death, neither in this grief looked after, nor should you see the deeds of a cruel son. And you, my happy, sweetest daughters, with your brother lost, in your worthy name.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>44.2 x 32.2 x 3.2.</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>44.2 x 32.2 x 3.2.</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>2nd century A.D.? Medieval fake?</Suggested_date>
     </row>
     <row>
@@ -690,7 +690,7 @@
         <Publication>ZPE 73 (1988), 95-6 no.7 (Taf. 6); AE 1988, 1143</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -701,7 +701,7 @@
         <Publication>CIL 06, 03339; Bull. dell'inst. 1849 p.106; syllog. Orellianae vol. III n.6818.; ILS 2364</Publication>
         <Provenance>reperta in vinea Aquariorum extra portam Latinam, nunc in aedibus eorundem.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -712,7 +712,7 @@
         <Publication>Unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -723,7 +723,7 @@
         <Publication>Unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -734,7 +734,7 @@
         <Publication>AE (1988): 1139;  Aubert, Lenz, Roth, and Sheridan, ZPE 73 (1988): 92-93, no. 3, Taf.V</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>36.8 x 25.4</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>36.8 x 25.4</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -745,7 +745,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>31.5 x 39.5 x 2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>31.5 x 39.5 x 2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -756,7 +756,7 @@
         <Publication>Aubert et al., ZPE 73 (1988) 92, no. 2 (Taf. IV); AE 1988, 1138</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>58.3 x 51 x 2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>58.3 x 51 x 2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -767,7 +767,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>10 x 27 x 0.2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>10 x 27 x 0.2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -778,7 +778,7 @@
         <Publication>unpublished</Publication>
         <Provenance>unknown</Provenance>
         <Translation>Marcus Pom(ponius?) of the Pupinia tribe... for his descendants... (measuring) 12 feet...</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>18.4 x 22 x 2.5-10.3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>18.4 x 22 x 2.5-10.3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century B.C.</Suggested_date>
     </row>
     <row>
@@ -789,7 +789,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>26 x 15 x 7</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>26 x 15 x 7</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -800,7 +800,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>21.5 x 29.5 x 5.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>21.5 x 29.5 x 5.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -811,7 +811,7 @@
         <Publication>unpublished</Publication>
         <Provenance>unknown</Provenance>
         <Translation>Gnaeus Flavius Apollonius, the freedmen of Gnaeus, and Papia Dioclea, the freedwoman of Lucius. The bones of these people have been placed here. Farewell.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>17.8 x 17.3 x 2.3-5.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>17.8 x 17.3 x 2.3-5.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century A.D.</Suggested_date>
     </row>
     <row>
@@ -822,7 +822,7 @@
         <Publication>CIL 6.36569; Gatti Not. Scav. (1896), 224.</Publication>
         <Provenance>reperta in vinea Aquari via Latina.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -833,7 +833,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>26 x 11 x 2.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>26 x 11 x 2.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -844,7 +844,7 @@
         <Publication>CIL 6.37274; Olcott, AJA 10 (1906) 157 no. 6</Publication>
         <Provenance>Said to have been found near Palestrina / Praeneste.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>80 x 55.5 x 3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>80 x 55.5 x 3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -855,7 +855,7 @@
         <Publication>Unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>15 x 7 x 1.7</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>15 x 7 x 1.7</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st to 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -866,7 +866,7 @@
         <Publication>CIL 6.38501; Olcott, AJA 12 (1908) 45 no. 10</Publication>
         <Provenance>Found 1906 in the excavations outside the Aurelian Walls for the construction of the new quarter of the Corso Pinciano, between the Porta Pinciana and the Porta Salaria.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>19 x 12.5 x 2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>19 x 12.5 x 2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -877,7 +877,7 @@
         <Publication>CIL 6.6997</Publication>
         <Provenance>found in vinea Aquariorum, but no agreement about when or exactly where.</Provenance>
         <Translation>To Egnatuleia Hilara, freedwoman of Marcus; [Marcus Egnatuleius set this up?] for himself and his freed slaves. [The funerary plot is] 18 feet wide and 18 feet deep.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Mid 1st century BCE to early 1st century CE.</Suggested_date>
     </row>
     <row>
@@ -888,7 +888,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>38 x 85 x 12</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>38 x 85 x 12</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -899,7 +899,7 @@
         <Publication>CIL 6.38353; Olcott, AJA 12 (1908) 46 no.12</Publication>
         <Provenance>Found in the summer of 1907 in the neighborhood of the Corso Pinciano.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>22.4 x 11 x 2.4</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>22.4 x 11 x 2.4</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -910,7 +910,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>31 x 10 x 7</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>31 x 10 x 7</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -921,7 +921,7 @@
         <Publication>CIL 6.37780; ILS 9425c; Olcott, AJA 12 (1908) 45 no.9</Publication>
         <Provenance>Found 1906 in the excavations outside the Aurelian Walls for the construction of the new quarter of the Corso Pinciano, between the Porta Pinciana and the Porta Salaria.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>18.2 x 10 x 2.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>18.2 x 10 x 2.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -932,7 +932,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>22 x 23 x 0.2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>22 x 23 x 0.2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -943,7 +943,7 @@
         <Publication>CIL 6.38040; Olcott, AJA 12 (1908) 44 no.6</Publication>
         <Provenance>Found 1906 in the excavations outside the Aurelian Walls for the construction of the new quarter of the Corso Pinciano, between the Porta Pinciana and the Porta Salaria.</Provenance>
         <Translation>Gaius Albius Felix the most dear [made this] for Asconia Candida freedwoman of Gaius.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>32.5 x 11.2 x 1.2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>32.5 x 11.2 x 1.2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -954,7 +954,7 @@
         <Publication>CIL 6.6887</Publication>
         <Provenance>in vinea Aquariorum: incisum in urna testatur fuisse in monumento eruderato a. 1848. Transcript only relayed second-hand.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Mid 1st to early 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -965,7 +965,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -976,7 +976,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation>Anoptes her co-slave and Nestor made this for Modesta Eumeles the maidservant.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>29.5 x 22 x 3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>29.5 x 22 x 3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -987,7 +987,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>12.5 x 17.5 x 4.6</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>12.5 x 17.5 x 4.6</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -998,7 +998,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation>... made this for his/her well deserving wife/husband and him/herself.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>15 x 15.8 x 3.9</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>15 x 15.8 x 3.9</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1009,7 +1009,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>19.8 x 14 x 1.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>19.8 x 14 x 1.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1020,7 +1020,7 @@
         <Publication>CIL 6.38537; Olcott, AJA 12 (1908) 43-44 no.5</Publication>
         <Provenance>Found 1906 in the excavations outside the Aurelian Walls for the construction of the new quarter of the Corso Pinciano, between the Porta Pinciana and the Porta Salaria.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>21.4 x 10 x 1.1</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>21.4 x 10 x 1.1</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE</Suggested_date>
     </row>
     <row>
@@ -1031,7 +1031,7 @@
         <Publication>CIL 6.37835; Olcott, AJA 10 (1906) 157 no. 8; ILS 9348</Publication>
         <Provenance>"Fuori porta Salaria".</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>24.8 x 14.9</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>24.8 x 14.9</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -1042,7 +1042,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation>Here lie the bones of Milacis she honest and beautiful lived 18 years.</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>12.4 x 9.9 x 1.3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>12.4 x 9.9 x 1.3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1053,7 +1053,7 @@
         <Publication>CIL 6.35953; Olcott, AJA 10 (1906), 155 no.3</Publication>
         <Provenance>from a columbarium fuori Porta Salaria, Rome. Acquired in 1901.</Provenance>
         <Translation>Junonius Nymphes</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>16.9 x 9.8 x 2.3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>16.9 x 9.8 x 2.3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Late 1st century BCE to early 1st century CE.</Suggested_date>
     </row>
     <row>
@@ -1064,7 +1064,7 @@
         <Publication>CIL 6.38802</Publication>
         <Provenance>apud antiquarium quendam ad forum Romanum</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Late 1st to 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -1075,7 +1075,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1086,7 +1086,7 @@
         <Publication>unpublished</Publication>
         <Provenance>Purchased in Rome, 1905. Gift of Mr Albert W van Buren, 1908.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1097,7 +1097,7 @@
         <Publication>CIL 6.36196; Olcott AJA 3 (1899), 236 no.20</Publication>
         <Provenance>found near St. Paul on via Ostiensis.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1108,7 +1108,7 @@
         <Publication>CIL 6.16814</Publication>
         <Provenance>tabula marmorea originis urbanae. Iguvii in aedibus Ranghiasci.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -1119,7 +1119,7 @@
         <Publication>CIL 6.37811; ILS 9427; Olcott, AJA 12 (1908) 42-43 no.3</Publication>
         <Provenance>Found 1906 in the excavations outside the Aurelian Walls for the construction of the new quarter of the Corso Pinciano, between the Porta Pinciana and the Porta Salaria.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -1130,7 +1130,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>34 x 17 x 3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>34 x 17 x 3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1141,7 +1141,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>24.5 x 26.7 x 2.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>24.5 x 26.7 x 2.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1152,7 +1152,7 @@
         <Publication>unpublished</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1163,7 +1163,7 @@
         <Publication>CIL 6.36729,2; Olcott AJA 3 (1899) 233 no.10</Publication>
         <Provenance>Via Ostiensis</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st century CE.</Suggested_date>
     </row>
     <row>
@@ -1174,7 +1174,7 @@
         <Publication>CIL 6.37993; Olcott, AJA 12 (1908) 45 no. 11</Publication>
         <Provenance>Found 1906 in the excavations outside the Aurelian Walls for the construction of the new quarter of the Corso Pinciano, between the Porta Pinciana and the Porta Salaria.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>Late 1st to early 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -1185,7 +1185,7 @@
         <Publication>CIL 6.38701a</Publication>
         <Provenance>apud antiquarium quendam ad forum Romanum; Gamurrini described it in 1907.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>1st to 2nd century CE.</Suggested_date>
     </row>
     <row>
@@ -1196,7 +1196,7 @@
         <Publication>IG II^2 1969</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>45/46 CE</Suggested_date>
     </row>
     <row>
@@ -1207,7 +1207,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from Via Ostiensis</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>11 x 11</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>11 x 11</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1218,7 +1218,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from Via Ostiensis</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>11 x 15 x 2.5</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>11 x 15 x 2.5</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1229,7 +1229,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from Via Ostiensis</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>10 x 15.6 x 3.2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>10 x 15.6 x 3.2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1240,7 +1240,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from Via Ostiensis, Rome.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>19 x 15 x 2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>19 x 15 x 2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1251,7 +1251,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from Via Ostiensis</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>15 x 6.5 x 2.2</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>15 x 6.5 x 2.2</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1262,7 +1262,7 @@
         <Publication>unpublished</Publication>
         <Provenance>From via Ostiensis.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>24 x 9.5 x 3</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>24 x 9.5 x 3</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1273,7 +1273,7 @@
         <Publication>unpublished</Publication>
         <Provenance>from Via Ostiensis</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>9 x 8 x 4</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>9 x 8 x 4</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1284,7 +1284,7 @@
         <Publication>unpublished</Publication>
         <Provenance>From Via Ostiensis.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>14 x 10 x 4</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>14 x 10 x 4</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1295,7 +1295,7 @@
         <Publication>unpublished</Publication>
         <Provenance>From Via Ostiensis.</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>6.7 x 11 x 2.4</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>6.7 x 11 x 2.4</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1306,7 +1306,7 @@
         <Publication>AE 1905, 00192; AE 1909, 00078; AE 1939, 00172; AJA 9 (1905), 67-8.</Publication>
         <Provenance>Found in the house of Signor Orazio Pasquale in Curti near Capua (1904), said to have been originally found at Teano, ancient Teanum Sidicinum.</Provenance>
         <Translation>...agrius Sagitt(a), Marcus Venid(ius) Vitul(us)... (V)alerius Asiaticus (twice consul), Marcus Silanus ... on the first of March, in the Valerian place, Vetus... Antis(tius?)... on the first of July, Decimus Laelius Bal(bus?)... on the first of October, Gaius Terentius Tullius Geminus, Quintus Coelius Gallus, Aulus Badius Sextus were quattuorviri, Marcus Plinius Gallus, Marcus Oppius Valerius were aediles... Vipstanius Poplicola Messala... Vipstanius [with the two functionaries appointed by Augustus?]</Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>23 x 20.6.</Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_>23 x 20.6.</Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date>After 46 A.D.; probably modern copy.</Suggested_date>
     </row>
     <row>
@@ -1317,7 +1317,7 @@
         <Publication>Egbert, Supplementary Papers of the American School of Classical Studies in Rome 2 (1908), 273.</Publication>
         <Provenance>from Schermerhorn</Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
     <row>
@@ -1328,7 +1328,7 @@
         <Publication>#ERROR: IF(E2:E121,"unpublished",1)</Publication>
         <Provenance></Provenance>
         <Translation></Translation>
-        <Measurements_in_cm.:_width_x_height__x_depth_where_recorded_></Measurements_in_cm.:_width_x_height__x_depth_where_recorded_>
+        <Measurements_in_cm._width_x_height__x_depth_where_recorded_></Measurements_in_cm._width_x_height__x_depth_where_recorded_>
         <Suggested_date></Suggested_date>
     </row>
 </root>
