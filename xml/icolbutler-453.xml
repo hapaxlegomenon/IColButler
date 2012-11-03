@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml"
+   schematypens="http://relaxng.org/ns/structure/1.0"?>
+    
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Unknown Epitaph</title>
+            <!-- Use "editor" elements to list each of the editors of this text -->
+         </titleStmt>
+         <publicationStmt>
+            <authority>Columbia University</authority>
+            <idno type="filename">icolbutler-453</idno>
+            <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.453">NY.NY.CU.Butl.L.453</idno>
+            <!-- add any other id numbers here -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Columbia University</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported,
+                    License. To view a copy of this license, visit
+                    http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                    Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                    USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <!-- this is how USEP constructs their own identifers; would Columbia prefer an 
+                       internal system and construct USEP identifiers as "altIdentifier"? -->
+                  <region>NY</region>
+                  <settlement>NY</settlement>
+                  <institution>CU</institution>
+                  <repository>Butl</repository>
+                  <idno>453</idno>
+                  <!-- use altIdentifier elements, as appropriate, to provide information about other 
+                       inventory numbers, past and present -->
+               </msIdentifier>
+               <msContents>
+                  <!--Describe the text, its disposition, and languages here -->
+                  <textLang mainLang="la"/>
+                  <msItem class="#funerary.epitaph">
+                     <!-- the value of the "class" attribute on the "msItem" element, as well as the 
+                          content of the paragraph below have been mined from the original spreadsheet;
+                          they should be checked and adjusted for accuracy and completeness. Note that
+                          the paragraph content here should describe the text, not the text-bearing
+                          object (for the latter, see the "physDesc" element) -->
+                     <p>Unknown Epitaph</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc ana="">
+                     <!-- describe the text-bearing object, its condition and history here -->
+                     <supportDesc>
+                        <support>
+                           <!-- Current USEP documents do not seem to use the "objectType" or "material"
+                                elements; rather, they use seg@type=material and seg@type=form; need to
+                                check with USEP about this -->
+                           <!-- Unable to parse values for the "ana" attribute on the "objectDesc"
+                                nor for the "objectType" element to be included in the paragraph
+                                below. These will need to be added manually.-->
+                           <p><material>Marble</material>; 
+                              <dimensions type="" unit="cm">
+                                 <!-- original string: "15 x 15.8 x 3.9"-->
+                                 <width>15</width>
+                                 <height>15.8</height>
+                                 <depth>3.9</depth>
+                              </dimensions>.</p>
+                        </support>
+                        <condition ana="">
+                           <!--provide appropriate values for the "ana" attribute from the USEP vocabulary-->
+                           <p><!--Use free text to describe the condition of the support--></p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="" writtenLines="4">
+                           <p><!--Use free text to describe the layout of the text on the support--></p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc ana="">
+                     <handNote/>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote ana="">
+                        <p/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <summary><!--use this section to summarize the history of the object --></summary>
+                  <origin>
+                     <origPlace type="location"/>
+                     <origDate notBefore="" notAfter=""/>
+                  </origin>
+                  <!--add "provenance" elements as needed to express other key events in the modern history
+                      of this object-->
+                  <provenance type="observed" notAfter="2012-10-19">
+                     <ab>Identified in the Butler library collection not later than 19 October 2012.</ab>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <!--information about squeezes, photos, notebooks, and other unpublished material
+                         goes here-->
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <listBibl><!--unpublished inscription--></listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2012-11-03T17:24:56.851-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+       <!-- Information about digital images and other digital documents that should go with this
+            document should be encoded here.-->
+    </facsimile>
+   <text>
+      <body>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <!-- The content of this "div" element is not (as of 2012-11-03-04:00) conformant
+                 EpiDoc. It is simply text that has been copied, leiden siglan and all, into this
+                 document from the initial spreadsheet. It will need to be converted into proper
+                 EpiDoc encoding.-->
+            <ab>[---]((CON))iVGi  /  [---]((BE))NEMEREn((TI))   /  [---]FECIT   /  [---]((E))T SIBI</ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab>... made this for his/her well deserving wife/husband and him/herself.</ab>
+         </div>
+      </body>
+   </text>
+</TEI>
