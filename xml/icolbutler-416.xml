@@ -138,10 +138,35 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                  EpiDoc. It is simply text that has been copied, leiden siglan and all, into this
                  document from the initial spreadsheet. It will need to be converted into proper
                  EpiDoc encoding.-->
-            <ab>TV . QVAE O . SANC . TIS /SI . MA . CON . IVNX . FELIX . /MORTE . TVA . NEQVE . IN . / HVNC . SERVATA . DOLORE[M] / NECRUDELIS FILI FAC. / TA . VI . DERES. / ET . VOS . FELI . CES . DUL . CIS . SI . / MAE . FILI . AE . RE . LIC . TO FRA . / TRE . IN . DIGNO . NO . MI . NE . / VES . TRO .</ab>
+               <ab>
+                  <lb n="1"/>Tuqu<surplus>a</surplus>e, o sanctis
+                  <lb n="2" break="no"/>sima coniunx, felix
+                  <lb n="3"/> morte tua neque in
+                  <lb n="4"/> hunc servata dolore<supplied reason="undefined" evidence="parallel">m</supplied>!
+                  <lb n="5"/> ne crudelis fili fac <g type="hedera"/>
+                  <lb n="6" break="no"/>ta videres <g type="hedera"/> <space quantity="2" unit="character"/>
+                  <lb n="7"/> et vos felices dulcissi
+                  <lb n="8" break="no"/>mae filiae relicto fra
+                  <lb n="9" break="no"/>tre indigno nomine
+                  <lb n="10"/> <space quantity="3" unit="character"/> vestro <space quantity="4" unit="character"/>
+               </ab>
          </div>
          <div type="translation" xml:lang="en">
-            <ab>O you, my most pious and happy wife, who by your death, neither in this grief looked after, nor should you see the deeds of a cruel son. And you, my happy, sweetest daughters, with your brother lost, in your worthy name.</ab>
+            <ab>
+               <lb n="1"/>And you, o most sacred wife,
+               <lb n="2"/>fortunate in your death, not reserved for this grief,
+               <lb n="3"/>may you not see the deeds of [your] cruel son, 
+               <lb n="4"/>and you, fortunate sweetest daughters, with a brother left behind, 
+               <lb n="5"/>unworthy of your name.
+            </ab>
+         </div>
+         <div type="apparatus">
+            <listApp>
+               <app>
+                  <note>The final words could read "in digno nomine," rendering a translation "in your worthy name."</note>
+                  <note>The first four lines of this inscription quote <name ref="http://viaf.org/viaf/8194433/#Virgil">Vergil</name>, Aeneid 11.158-9.</note>
+               </app>
+            </listApp>
          </div>
       </body>
    </text>
