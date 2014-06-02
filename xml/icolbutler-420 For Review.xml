@@ -1,0 +1,180 @@
+<?oxygen
+   RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"?>
+    
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>epitaph of Primitibus?</title>
+            <!-- Use "editor" elements to list each of the editors of this text -->
+         </titleStmt>
+         <publicationStmt>
+            <authority>Columbia University</authority>
+            <idno type="filename">icolbutler-420</idno>
+            <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.420">NY.NY.CU.Butl.L.420</idno>
+            <!-- add any other id numbers here -->
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Columbia University</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported,
+                    License. To view a copy of this license, visit
+                    http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                    Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                    USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <!-- this is how USEP constructs their own identifers; would Columbia prefer an 
+                       internal system and construct USEP identifiers as "altIdentifier"? -->
+                  <region>NY</region>
+                  <settlement>NY</settlement>
+                  <institution>CU</institution>
+                  <repository>Butl</repository>
+                  <idno>420</idno>
+                  <!-- use altIdentifier elements, as appropriate, to provide information about other 
+                       inventory numbers, past and present -->
+               </msIdentifier>
+               <msContents>
+                  <!--Describe the text, its disposition, and languages here -->
+                  <textLang mainLang="la"/>
+                  <msItem class="#funerary.epitaph">
+                     <!-- the value of the "class" attribute on the "msItem" element, as well as the 
+                          content of the paragraph below have been mined from the original spreadsheet;
+                          they should be checked and adjusted for accuracy and completeness. Note that
+                          the paragraph content here should describe the text, not the text-bearing
+                          object (for the latter, see the "physDesc" element) -->
+                     <p>epitaph of Primitibus?</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc ana="">
+                     <!-- describe the text-bearing object, its condition and history here -->
+                     <supportDesc>
+                        <support>
+                           <!-- Current USEP documents do not seem to use the "objectType" or "material"
+                                elements; rather, they use seg@type=material and seg@type=form; need to
+                                check with USEP about this -->
+                           <!-- Unable to parse values for the "ana" attribute on the "objectDesc"
+                                nor for the "objectType" element to be included in the paragraph
+                                below. These will need to be added manually.-->
+                           <p><material>marble</material>; 
+                              <dimensions type="" unit="cm">
+                                 <!-- original string: ""-->
+                              </dimensions>.</p>
+                        </support>
+                        <condition ana="#complete.intact">
+                           <!--provide appropriate values for the "ana" attribute from the USEP vocabulary-->
+                           <p>Complete with chipped edges</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="7">
+                           <p>Text in first four written lines larger than final three, faint guidelines throughout</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc ana="impressed.inscribed">
+                     <handNote/>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote ana="#blank">
+                        <p>no decoration</p>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <summary><!--use this section to summarize the history of the object --></summary>
+                  <origin>
+                     <origPlace type="location"/>
+                     <origDate notBefore="" notAfter=""/>
+                  </origin>
+                  <!--add "provenance" elements as needed to express other key events in the modern history
+                      of this object-->
+                  <provenance type="observed" notAfter="2012-10-19">
+                     <ab>Identified in the Butler library collection not later than 19 October 2012.</ab>
+                     <ab>Purchased by Drisler Fund, no later than 1901</ab>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                     <!--information about squeezes, photos, notebooks, and other unpublished material
+                         goes here-->
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <listBibl>Unpublished inscription see Columbia University Quarterly Volume III available on Hathitrust and Google Books p 189-90 for brief mention of text and translation</listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <xi:include href="http://dev.stg.brown.edu/projects/usepigraphy/xml/include_taxonomies.xml">
+            <xi:fallback>
+               <p>Taxonomies for US Epigraphy controlled values</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+         <change when="2014-5" who="SAL">Markup, addition of translation, transcription of original text.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile type="graphic">
+       <!-- Information about digital images and other digital documents that should go with this
+            document should be encoded here.-->
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <!-- The content of this "div" element is not (as of 2012-11-03-04:00) conformant
+                 EpiDoc. It is simply text that has been copied, leiden siglan and all, into this
+                 document from the initial spreadsheet. It will need to be converted into proper
+                 EpiDoc encoding.-->
+           <ab>
+              <lb n="1"/>
+               <expan>
+                  <abbr>D</abbr>
+                  <ex>is</ex>
+               </expan>
+               <persName type="attested">Faustina</persName>
+               <expan>
+                  <abbr>M</abbr>
+                  <ex>anibus</ex>
+               </expan>
+              <lb n="2"/>
+              <choice><reg>coniugi</reg><orig>coiugi</orig></choice>
+               suo dulcissimo
+              <lb n="3"/>primitibo bene merenti
+              <lb n="4"/>
+               <add>
+                 <num value="40"/>XL</num>
+                 qui f ano 
+               </add>
+               qum quo<note>sic</note> vixit annis
+               <num value="12"/>XII</num> annis
+               <expan>me
+                  <ex>n</ex>s<ex>ibus</ex>
+               </expan>
+              <lb n="5"/><num value="8"/>VIII</num>diebus<num value="7"/>VII</num>et discentes
+              <lb n="6"/>fecerunt<persName type="attested">Felix</persName>et<persName type="attested">Maximi</persName>
+              <lb break="no">
+              <lb n="7"/>nus magistro bene merenti</lb>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <app loc="147">
+               <note>Both Primitibus and Primitivus are cognomen attested to previously (see CIL #s) but sometimes is noted as a error by the workman<note></note></note>
+            </app>
+            <app loc="150">
+               <note>Here the craftsman likely meant cum instead of the early and uncommon preposition qum.</note>
+            </app>
+         </div>
+         <!---marked by line number? Editor's notes (non corrections) here? --->
+         <div type="translation" xml:lang="en">
+            <p>To the Shades of the Underworld. Faustina (made this) for her most dear and well-deserving husband Primiti[v]us, who was in his forieth year of life (?), with whom she lived twelve years , eight months, seven days; and also Felix and Maximinus, students (?), made this for their well-deserving teacher.</p>
+            <ab/></ab>
+         </div>
+      </body>
+   </text>
+</TEI>
