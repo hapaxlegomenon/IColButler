@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml"
-   schematypens="http://relaxng.org/ns/structure/1.0"?>
-    
+<?oxygen
+RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"
+?>   
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>epitaph of Pompeia Augurina</title>
-            <!-- Use "editor" elements to list each of the editors of this text -->
+            <title>NY.NY.CU.Butl.L.419</title>
+            <editor>Elizabeth Heintges</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Columbia University</authority>
@@ -47,13 +46,13 @@
                           they should be checked and adjusted for accuracy and completeness. Note that
                           the paragraph content here should describe the text, not the text-bearing
                           object (for the latter, see the "physDesc" element) -->
-                     <p>epitaph of Pompeia Augurina</p>
+                     <p>Epitaph of Pompeia Augurina</p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc ana="">
+                  <objectDesc ana="#slab">
                      <!-- describe the text-bearing object, its condition and history here -->
-                     <supportDesc>
+                     <supportDesc ana="#stone.marble">
                         <support>
                            <!-- Current USEP documents do not seem to use the "objectType" or "material"
                                 elements; rather, they use seg@type=material and seg@type=form; need to
@@ -61,27 +60,49 @@
                            <!-- Unable to parse values for the "ana" attribute on the "objectDesc"
                                 nor for the "objectType" element to be included in the paragraph
                                 below. These will need to be added manually.-->
-                           <p><material>marble</material>; 
-                              <dimensions type="" unit="cm">
-                                 <!-- original string: ""-->
-                              </dimensions>.</p>
+                           <p>Thick marble slab with handle cut out on the left side.The handle measures 23x6 cm. It is oval at the top but is turned down at the bottom edges, which also show some signs of wear. Tool marks are visible inside the handle. The back of the slab is roughly chiseled for bonding. There are also light traces of gray plaster.</p>
+                              <dimensions type="surface" unit="cm">
+                                 <width>61.6</width>
+                                 <height>36.1</height>
+                                 <depth>6.0</depth>
+                              </dimensions>
                         </support>
-                        <condition ana="">
+                        <condition ana="#complete.broken">
                            <!--provide appropriate values for the "ana" attribute from the USEP vocabulary-->
-                           <p><!--Use free text to describe the condition of the support--></p>
+                           <p>The top left corner of the tablet (containing D. and the top part of the handle) has broken off the remainder of the tablet. Additionally, the right-hand side of the tablet is not fully intact - while the main text has been preserved, the M. is only partially visible.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="" writtenLines="9">
-                           <p><!--Use free text to describe the layout of the text on the support--></p>
+                        <layout columns="1" writtenLines="8">
+                           <p>The majority of the text (7 lines) is located within a thinly incised frame. D. M. is placed outside of this frame. These two letters are positioned in the top right and left hand corners, respectively, and are equidistant from the frame. The top of each letter lies on the same horizontal axis as the top part of the frame. These letters are similar in size with the rest of the text.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc ana="">
-                     <handNote/>
+                  <handDesc ana="#impressed.inscribed.chiseled">
+                     <handNote> D.
+                        <height unit="cm">2.8cm</height>
+                     </handNote>
+                     <handNote> M.
+                        <height unit="cm">2.4cm</height>
+                     </handNote>
+                     <handNote> P-longa in line 2
+                        <height unit="cm">3.5cm</height>
+                     </handNote>
+                     <handNote> Other letter heights line 2
+                        <height unit="cm" min="2.5" max="2.8">2.5cm - 2.8cm</height>
+                     </handNote>
+                     <handNote> Letter heights, line 3
+                        <height unit="cm" min="2.2" max="2.5">2.2cm - 2.5cm</height>
+                     </handNote>
+                     <handNote> Letter height, lines 4-6
+                        <height unit="cm">3.0cm</height>
+                     </handNote>
+                     <handNote> Letter heights, lines 7-8
+                        <height unit="cm" min="2.5" max="2.7">2.5cm - 2.7cm</height>
+                     </handNote>
                   </handDesc>
                   <decoDesc>
-                     <decoNote ana="">
+                     <decoNote ana="#blank">
                         <p/>
                      </decoNote>
                   </decoDesc>
@@ -89,7 +110,7 @@
                <history>
                   <summary><!--use this section to summarize the history of the object --></summary>
                   <origin>
-                     <origPlace type="location"/>
+                     <origPlace type="location">Unknown</origPlace>
                      <origDate notBefore="" notAfter=""/>
                   </origin>
                   <!--add "provenance" elements as needed to express other key events in the modern history
@@ -117,6 +138,8 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+         <change when="2014-05-29" who="EMH">EMH marked up.</change>
+         <change when="2014-06-05" who="EMH">EMH added text and translation.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -130,10 +153,21 @@
                  EpiDoc. It is simply text that has been copied, leiden siglan and all, into this
                  document from the initial spreadsheet. It will need to be converted into proper
                  EpiDoc encoding.-->
-            <ab>D  M / POM.PEIAE . GN . FIL . AV / GVRI . NAE . MATRI . PIEN / TISSIMAE . AE. LI. I . PVBLI. / FILI. NIGRINVS . ET AVGV. /RINA. FECERVNT . LIBER /TIS . LIBERTABVSQ. /POSTERIS /Q. EORVM.</ab>
+<ab>
+<lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+<lb n="2"/> Pompeiae <expan><abbr>Gn</abbr><ex>aei</ex></expan> <expan><abbr>fil</abbr><ex>iae</ex></expan> Au
+<lb n="3" break="no"/>gurinae matri pien
+<lb n="4" break="no"/>tissimae Aelii Publii
+<lb n="5"/> fili Nigrinus et Augu
+<lb n="6" break="no"/>rina fecerunt liber
+<lb n="7" break="no"/>tis <expan><abbr>libertabusq</abbr><ex>ue</ex></expan> posteris
+<lb n="8" break="no"/><expan><abbr>q</abbr><ex>ue</ex></expan> eorum.</ab>
          </div>
          <div type="translation" xml:lang="en">
-            <ab/>
+            <ab>
+               <lb n="1"/>To the sacred shades.
+               <lb n="2"/>For Pompeia Augurina, daughter of Gnaeus, most pious mother, the children of Aelius Publius, Nigrinus and Augurina, made (this) and for their freedmen and freedmen and descendants.
+            </ab>
          </div>
       </body>
    </text>
