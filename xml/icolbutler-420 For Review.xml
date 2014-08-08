@@ -137,7 +137,7 @@
                   <abbr>D</abbr>
                   <ex>is</ex>
                </expan>
-               <persName type="attested">Faustina</persName>
+               <persName>Faustina</persName>
                <expan>
                   <abbr>M</abbr>
                   <ex>anibus</ex>
@@ -145,29 +145,26 @@
               <lb n="2"/>
               <choice><reg>coniugi</reg><orig>coiugi</orig></choice>
                suo dulcissimo
-              <lb n="3"/>primitibo bene merenti
+              <lb n="3"/><persName key="Primitivus" type="cognomen"><choice><reg>Primitivo</reg><orig>Primitibo</orig></choice></persName>bene merenti<add place="right">qui <abbr>f</abbr> ano</add>
               <lb n="4"/>
-               <add>
-                 <num value="40"/>XL</num>
-                 qui f ano 
-               </add>
+               <add place="left"><num value="40"/>XL</num></add>
                qum quo<note>sic</note> vixit annis
                <num value="12"/>XII</num> annis
                <expan>me
                   <ex>n</ex>s<ex>ibus</ex>
                </expan>
               <lb n="5"/><num value="8"/>VIII</num>diebus<num value="7"/>VII</num>et discentes
-              <lb n="6"/>fecerunt<persName type="attested">Felix</persName>et<persName type="attested">Maximi</persName>
+              <lb n="6"/>fecerunt<persName>Felix</persName>et<persName type="attested">Maximi</persName>
               <lb break="no">
               <lb n="7"/>nus magistro bene merenti</lb>
             </ab>
          </div>
          <div type="apparatus">
             <app loc="147">
-               <note>Both Primitibus and Primitivus are cognomen attested to previously (see CIL #s) but sometimes is noted as a error by the workman<note></note></note>
+               <note>Both Primitibus and Primitivus are cognomena attested to previously (see CIL #s) but sometimes is noted as a error by the workman<note></note></note>
             </app>
             <app loc="150">
-               <note>Here the craftsman likely meant cum instead of the early and uncommon preposition qum.</note>
+               <note>Here the craftsman likely meant cumquo instead of the uncommon qumquo.</note>
             </app>
          </div>
          <!---marked by line number? Editor's notes (non corrections) here? --->
