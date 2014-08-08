@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml"
-   schematypens="http://relaxng.org/ns/structure/1.0"?>
-    
+<?oxygen RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"?>
+  
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>epitaph of M. Publilius Lupercus the doctor</title>
+            <title>NY.NY.CU.Butl.L.419</title>
+            <editor>Stephen Anthony LaMonica</editor>
             <!-- Use "editor" elements to list each of the editors of this text -->
          </titleStmt>
          <publicationStmt>
@@ -47,13 +46,13 @@
                           they should be checked and adjusted for accuracy and completeness. Note that
                           the paragraph content here should describe the text, not the text-bearing
                           object (for the latter, see the "physDesc" element) -->
-                     <p>epitaph of M. Publilius Lupercus the doctor</p>
+                     <p>Epitaph of M. Publilius Lupercus the Doctor and Surgeon</p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc ana="">
+                  <objectDesc ana="#slab">
                      <!-- describe the text-bearing object, its condition and history here -->
-                     <supportDesc>
+                     <supportDesc ana="#stone.marble">
                         <support>
                            <!-- Current USEP documents do not seem to use the "objectType" or "material"
                                 elements; rather, they use seg@type=material and seg@type=form; need to
@@ -61,28 +60,40 @@
                            <!-- Unable to parse values for the "ana" attribute on the "objectDesc"
                                 nor for the "objectType" element to be included in the paragraph
                                 below. These will need to be added manually.-->
-                           <p><material>marble</material>; 
-                              <dimensions type="" unit="cm">
+                           <p>Mounted, rectangular, marble tablet.</p>
+                              <dimensions type="surface" unit="cm">
+                                 <width>27.9</width>
+                                 <height>12.1</height>
+                                 <depth>Mounted, no depth</depth>
                                  <!-- original string: ""-->
-                              </dimensions>.</p>
+                              </dimensions>
                         </support>
-                        <condition ana="">
+                        <condition ana="#complete.broken">
                            <!--provide appropriate values for the "ana" attribute from the USEP vocabulary-->
                            <p><!--Use free text to describe the condition of the support--></p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="" writtenLines="4">
-                           <p><!--Use free text to describe the layout of the text on the support--></p>
+                        <layout columns="1" writtenLines="4">
+                           <p>Text bordered by incised triangles that act as borders on left and right sides. No obvious indications of guidelines.<!--Use free text to describe the layout of the text on the support--></p>
+                        </layout>
+                        <layout>Textual plane dimensions
+                           <height unit="cm">12.1</height>
+                           <width unit="cm">18.7</width>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc ana="">
-                     <handNote/>
-                  </handDesc>
+                  <handDesc ana="#impressed.inscribed.chiseled">
+                     <handNote>Third and fourth lines of text are not centered.
+                     </handNote>
                   <decoDesc>
                      <decoNote ana="">
-                        <p/>
+                        <p/>Four right-angle triangles on the left and right borders framing text.
+                     </decoNote>
+                     <decoNote>Triangle dimensions, uniform in size
+                        <height unit="cm">3.5</height>
+                        <width unit="cm">4.1</width>
+                        <hypotenus unit="cm">5.4</hypotenus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -118,6 +129,7 @@
       <revisionDesc>
          <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
       </revisionDesc>
+          <change when="2014-7-31" who="SAL">SAL marked up, edited transcription, added translation.</change>
    </teiHeader>
    <facsimile>
        <!-- Information about digital images and other digital documents that should go with this
@@ -130,10 +142,14 @@
                  EpiDoc. It is simply text that has been copied, leiden siglan and all, into this
                  document from the initial spreadsheet. It will need to be converted into proper
                  EpiDoc encoding.-->
-            <ab>M. PVBLILIVS. LVPERCVS / MEDICVS. CHIRVRGVS / VIXIT. ANNOS. XXIII /PRIMA BARBA</ab>
+            <ab>
+               <lb n="1"/>M Publilius Lupercus
+               <lb n="2"/>Medicus Chirurgus
+               <lb n="3"/>vixit annos <add><num value="23">XXIII</num></add>
+               <lb n="4"/>prima barba</ab>
          </div>
          <div type="translation" xml:lang="en">
-            <ab/>
+            <p>M Publilius Lupercus doctor and surgeon, lived twenty three years the foremost barber</p>
          </div>
       </body>
    </text>
