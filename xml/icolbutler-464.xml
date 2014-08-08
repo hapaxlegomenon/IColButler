@@ -62,7 +62,10 @@
                                 nor for the "objectType" element to be included in the paragraph
                                 below. These will need to be added manually.-->
                            <p><material>marble</material>; 
-                              <dimensions type="" unit="cm">
+                              <dimensions type="surface" unit="cm">
+                                 <width>23.8</width>
+                                 <height>13.7</height>
+                                 <depth>3.2</depth>
                                  <!-- original string: ""-->
                               </dimensions>.</p>
                         </support>
