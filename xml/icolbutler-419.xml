@@ -54,12 +54,8 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                      <!-- describe the text-bearing object, its condition and history here -->
                      <supportDesc ana="#stone.marble">
                         <support>
-                           <!-- Current USEP documents do not seem to use the "objectType" or "material"
-                                elements; rather, they use seg@type=material and seg@type=form; need to
-                                check with USEP about this -->
-                           <!-- Unable to parse values for the "ana" attribute on the "objectDesc"
-                                nor for the "objectType" element to be included in the paragraph
-                                below. These will need to be added manually.-->
+                           <seg type="material">marble</seg>
+                           <seg type="form"></seg>
                            <p>Thick marble slab with handle cut out on the left side.The handle measures 23x6 cm. It is oval at the top but is turned down at the bottom edges, which also show some signs of wear. Tool marks are visible inside the handle. The back of the slab is roughly chiseled for bonding. There are also light traces of gray plaster.</p>
                               <dimensions type="surface" unit="cm">
                                  <width>61.6</width>
@@ -74,7 +70,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="8">
-                           <p>The majority of the text (7 lines) is located within a thinly incised frame. D. M. is placed outside of this frame. These two letters are positioned in the top right and left hand corners, respectively, and are equidistant from the frame. The top of each letter lies on the same horizontal axis as the top part of the frame. These letters are similar in size with the rest of the text.</p>
+                           <p>The majority of the text (7 lines) is located within a thinly incised frame. D. M. is placed in the margins outside of this frame. These two letters, comparable in size to the rest of the text, are positioned in the top right and left hand corners, respectively, and are equidistant from the frame. The top of each letter lies on the same horizontal axis as the top part of the frame. Guide lines are visible in the main body of text, which is largely well laid out (barring the final line, which ends halfway across). </p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -100,10 +96,13 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                      <handNote> Letter heights, lines 7-8
                         <height unit="cm" min="2.5" max="2.7">2.5cm - 2.7cm</height>
                      </handNote>
+                     <handNote ana="blank">
+                        <p> While the hand is largely consistent (the letters are generally spaced evenly and of a similar dimension), there is some variation in lettering, which is especially visible in the rendering of the letter M. Variety is also visible in the appearance of the interpuncts (slashes and points are both present) and they do not have a consistent depth, though this may be the product of wear on the surface. The hederae (discussed below) are likewise not consistent. However, there is no clear evidence for suggesting that this epitaph is the product of multiple hands.</p>
+                     </handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote ana="#blank">
-                        <p/>
+                        <p> At the end of each of the first two lines of the main body of text within the incised frame, there is a hedera. These "hederae" are irregular and inconsistent in shape. While they are roughly the same size (3.3cm vs. 3.5cm measured on the diagonal), the first hedera is topped with a hook curving to the left, while the second remains straight. There are also small traces of paint visible.</p>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -140,6 +139,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
          <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
          <change when="2014-05-29" who="EMH">EMH marked up.</change>
          <change when="2014-06-05" who="EMH">EMH added text and translation.</change>
+         <change when="2014-08-15" who="EMH">Added descriptive metadata, tags; edited text and translation.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -153,20 +153,25 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                  EpiDoc. It is simply text that has been copied, leiden siglan and all, into this
                  document from the initial spreadsheet. It will need to be converted into proper
                  EpiDoc encoding.-->
+            <div type="textpart" subtype="border">
+               <ab>
+                 <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+               </ab>
+            </div>
+            <div type="textpart" subtype="body">
 <ab>
-<lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-<lb n="2"/> Pompeiae <expan><abbr>Gn</abbr><ex>aei</ex></expan> <expan><abbr>fil</abbr><ex>iae</ex></expan> Au
-<lb n="3" break="no"/>gurinae matri pien
-<lb n="4" break="no"/>tissimae Aelii Publii
-<lb n="5"/> fili Nigrinus et Augu
-<lb n="6" break="no"/>rina fecerunt liber
-<lb n="7" break="no"/>tis <expan><abbr>libertabusq</abbr><ex>ue</ex></expan> posteris
-<lb n="8" break="no"/><expan><abbr>q</abbr><ex>ue</ex></expan> eorum.</ab>
+<lb n="1"/><persName type="gentilicium" key="Pompeia">Pompeiae</persName> <persName type="praenomen" key="Gnaeus"><expan><abbr>Gn</abbr><ex>aei</ex></expan></persName> <expan><abbr>fil</abbr><ex>iae</ex></expan> <persName type="cognomen" key="Augurina">Au
+<lb n="2" break="no"/>gurinae</persName> matri pien
+<lb n="3" break="no"/>tissimae <persName type="gentilicium" key="Aelius">Aelii</persName> <persName type="praenomen" key="Publius">Publii</persName>
+<lb n="4"/> fili <persName type="cognomen" key="Nigrinus">Nigrinus</persName> et <persName type="cognomen" key="Augurina">Augu
+<lb n="5" break="no"/>rina</persName> fecerunt liber
+<lb n="6" break="no"/>tis <expan><abbr>libertabusq</abbr><ex>ue</ex></expan> posteris
+<lb n="7" break="no"/><expan><abbr>q</abbr><ex>ue</ex></expan> eorum.</ab>
          </div>
          <div type="translation" xml:lang="en">
             <ab>
                <lb n="1"/>To the sacred shades.
-               <lb n="2"/>For Pompeia Augurina, daughter of Gnaeus, most pious mother, the children of Aelius Publius, Nigrinus and Augurina, made (this) and for their freedmen and freedmen and descendants.
+               <lb n="2"/>For Pompeia Augurina, daughter of Gnaeus, most pious mother, the children of Publius Aelius, Nigrinus and Augurina, made (this) and for their freedmen and freedwomen and their descendants.
             </ab>
          </div>
       </body>
