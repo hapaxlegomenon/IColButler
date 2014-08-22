@@ -6,7 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title>NY.NY.CU.Butl.L.420</title>
-            <!-- Use "editor" elements to list each of the editors of this text -->
+            <editor>Stephen Levine</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Columbia University</authority>
@@ -55,10 +55,9 @@
                                  <height>27.7</height>
                                  <width>54</width>
                                  <depth>2</depth>
-                              </dimensions>.</p>
+                              </dimensions></p>
                         </support>
                         <condition ana="#complete.intact">
-                           <!--provide appropriate values for the "ana" attribute from the USEP vocabulary-->
                            <p>Complete with chipped edges</p>
                         </condition>
                      </supportDesc>
@@ -78,13 +77,11 @@
                   </decoDesc>
                </physDesc>
                <history>
-                  <summary><!--use this section to summarize the history of the object --></summary>
+                  <summary>Unknown before purchase by Columbia</summary>
                   <origin>
                      <origPlace type="location"/>
                      <origDate notBefore="0100" notAfter="0300">Second or third century CE</origDate>
                   </origin>
-                  <!--add "provenance" elements as needed to express other key events in the modern history
-                      of this object-->
                   <provenance type="observed" notAfter="2011-09-1">
                      <ab>Identified in the Butler library collection not later than 1st Spetember 2011.</ab>
                   </provenance>
@@ -97,7 +94,7 @@
                   </surrogates>
                </additional>
             </msDesc>
-            <listBibl>Unpublished inscription see Columbia University Quarterly Volume III available on Hathitrust and Google Books p 189-90 for brief mention of text and translation</listBibl>
+            <listBibl>Unpublished inscription see Columbia University Quarterly Volume III December 1900 No. 1 available on Hathitrust and Google Books p 189-90 for brief mention of text and translation</listBibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -110,6 +107,7 @@
       <revisionDesc>
          <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
          <change when="2014-5" who="SAL">Markup, addition of translation, transcription of original text.</change>
+         <change when"2014-8" who="SAL">Edits to translation and tags in code.  Addition of bibliography and outside sources</change>
       </revisionDesc>
    </teiHeader>
    <facsimile type="graphic">
@@ -123,45 +121,31 @@
                  EpiDoc. It is simply text that has been copied, leiden siglan and all, into this
                  document from the initial spreadsheet. It will need to be converted into proper
                  EpiDoc encoding.-->
-           <ab>
-              <lb n="1"/>
-               <expan>
-                  <abbr>D</abbr>
-                  <ex>is</ex>
-               </expan>
-               <persName>Faustina</persName>
-               <expan>
-                  <abbr>M</abbr>
-                  <ex>anibus</ex>
-               </expan>
-              <lb n="2"/>
-              <choice><reg>coniugi</reg><orig>coiugi</orig></choice>
-               suo dulcissimo
-              <lb n="3"/><persName key="Primitivus" type="cognomen"><choice><reg>Primitivo</reg><orig>Primitibo</orig></choice></persName>bene merenti<add place="right">qui <abbr>f</abbr> ano</add>
-              <lb n="4"/>
-               <add place="left"><num value="40"/>XL</num></add>
-               qum quo<note>sic</note> vixit annis
-               <num value="12"/>XII</num> annis
-               <expan><abbr>me</abbr><ex>n</ex>s<ex>ibus</ex>
-               </expan>
-              <lb n="5"/><num value="8"/>VIII</num>diebus<num value="7"/>VII</num>et discentes
-              <lb n="6"/>fecerunt<persName>Felix</persName>et<persName type="attested">Maximi</persName>
-              <lb break="no">
-              <lb n="7"/>nus magistro bene merenti</lb>
-            </ab>
+            <div type="textpart" subtype="dis_manibus">
+               <ab><expan><abbr>D</abbr><ex>is</ex></expan><expan><abbr>M</abbr><ex>anibus</ex></expan></ab>
+            </div>
+            <div type="textpart" subtype="body">
+               <ab>
+                  <lb n="1"/><persName type="cognomen" key="Faustina">Faustina</persName>
+                  <lb n="2"/><choice><reg>coniugi</reg><orig>coiugi</orig></choice> suo dulcissimo
+                  <lb n="3"/><persName key="Primitivus" type="cognomen"><choice><reg>Primitivo</reg><orig>Primitibo</orig></choice></persName>bene merenti<add place="right">qui <abbr>f</abbr> ano</add>
+                  <lb n="4"/><add place="left"><num value="40"/>XL</num></add> qum<note>sic</note> quo vixit annis<num value="12"/>XII</num> annis<expan><abbr>me</abbr><ex>n</ex>s<ex>ibus</ex>
+                  <lb n="5"/></expan><num value="8"/>VIII</num>diebus<num value="7"/>VII</num>et discentes
+                  <lb n="6"/>fecerunt<persName type="cognomen" key="Felix">Felix</persName> et <persName type="cognomen" key="Maximinus">Maximi
+                  <lb n="7" type-"worddiv"/>nus</persname> magistro bene merenti
+               </ab>   
+            </div>
          </div>
          <div type="apparatus">
             <app loc="147">
-               <note>Both Primitibus and Primitivus are cognomena attested to previously (see CIL #s) but sometimes is noted as a error by the workman<note></note></note>
+               <note>QUI F ANO, possible abbreviation for qui fuit annorum as attested to in two similary inscriptions discovered near Rome.  See CIL 06 14417:D(is) M(anibus) / Carpophoro / bene merenti / co(n)iugi q(ui) v(ixit) a(nnos) / mecum XI m(enses) IIII / qui f(uit) an(norum) XXXXII / Muna co(n)iux b(e)n(e) m(erenti) and ICUR-01 03455: Euschemon Graecus qui fuit annor(um) / XXX et vixit cum coniuge sua ann(os) II et / mens(es) VII et dies VI reliquit filium / mens(i)um III bene merenti con/iugi Ursa fecit deposit(us) XVIII / Kal(endas) Ian(uarias) et Sisinnius frater / cum amicis suis in pace / prid(ie) Idus Decemb(res) die Martis</note>
             </app>
             <app loc="150">
-               <note>Here the craftsman likely meant cumquo instead of the uncommon qumquo.</note>
+               <note>Here the craftsman likely meant cumquo instead of the qumquo.</note>
             </app>
          </div>
-         <!---marked by line number? Editor's notes (non corrections) here? --->
          <div type="translation" xml:lang="en">
-            <p>To the Shades of the Underworld. Faustina (made this) for her most dear and well-deserving husband Primiti[v]us, who was in his forieth year of life (?), with whom she lived twelve years , eight months, seven days; and also Felix and Maximinus, students (?), made this for their well-deserving teacher.</p>
-            <ab/></ab>
+            <p>To the Shades of the Underworld. Faustina (made this) for her most dear and well-deserving husband Primitivus, who was in his forieth year, with whom she lived twelve years , eight months, seven days; and also Felix and Maximinus students, made this for their well-deserving teacher.</p>
          </div>
       </body>
    </text>
