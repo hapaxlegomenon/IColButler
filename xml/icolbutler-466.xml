@@ -59,7 +59,7 @@
                                  <depth>2.5</depth>
                               </dimensions>.</p>
                         </support>
-                        <condition ana="">
+                        <condition ana="#incomplete.broken">
                            <!--provide appropriate values for the "ana" attribute from the USEP vocabulary-->
                            <p><!--Use free text to describe the condition of the support--></p>
                         </condition>
