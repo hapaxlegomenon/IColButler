@@ -12,7 +12,6 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
             <authority>Columbia University</authority>
             <idno type="filename">icolbutler-419</idno>
             <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.419">NY.NY.CU.Butl.L.419</idno>
-            <!-- add any other id numbers here -->
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Copyright (c) 2012 by Columbia University</p>
@@ -27,25 +26,15 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <!-- this is how USEP constructs their own identifers; would Columbia prefer an 
-                       internal system and construct USEP identifiers as "altIdentifier"? -->
                   <region>NY</region>
                   <settlement>NY</settlement>
                   <institution>CU</institution>
                   <repository>Butl</repository>
                   <idno>419</idno>
-                  <!-- use altIdentifier elements, as appropriate, to provide information about other 
-                       inventory numbers, past and present -->
                </msIdentifier>
                <msContents>
-                  <!--Describe the text, its disposition, and languages here -->
                   <textLang mainLang="la"/>
                   <msItem class="#funerary.epitaph">
-                     <!-- the value of the "class" attribute on the "msItem" element, as well as the 
-                          content of the paragraph below have been mined from the original spreadsheet;
-                          they should be checked and adjusted for accuracy and completeness. Note that
-                          the paragraph content here should describe the text, not the text-bearing
-                          object (for the latter, see the "physDesc" element) -->
                      <p>Epitaph of Pompeia Augurina</p>
                   </msItem>
                </msContents>
@@ -56,21 +45,20 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                         <support>
                            <seg type="material">marble</seg>
                            <seg type="form"></seg>
-                           <p>Thick marble slab with handle cut out on the left side.The handle measures 23x6 cm. It is oval at the top but is turned down at the bottom edges, which also show some signs of wear. Tool marks are visible inside the handle. The back of the slab is roughly chiseled for bonding. There are also light traces of gray plaster.</p>
+                           <p>Thick marble slab with handle cut out on the left side.The handle measures 23x6 cm. It is oval at the top but is turned down at the bottom edges, which also show some signs of wear. Tool marks are visible inside the handle. The back of the slab is roughly chiseled for bonding. There are also light traces of gray plaster.</p><!-- QUESTION: should this <p> element be nested within <seg type="form">? For some reason I have the <seg> elements nested within a larger <p> -->
                               <dimensions type="surface" unit="cm">
                                  <width>61.6</width>
                                  <height>36.1</height>
                                  <depth>6.0</depth>
                               </dimensions>
                         </support>
-                        <condition ana="#complete.broken">
-                           <!--provide appropriate values for the "ana" attribute from the USEP vocabulary-->
+                        <condition ana="#complete.broken"><!-- QUESTION: OR is it #fragments.contig? After all, the right handle is missing....-->
                            <p>The top left corner of the tablet (containing D. and the top part of the handle) has broken off the remainder of the tablet. Additionally, the right-hand side of the tablet is not fully intact - while the main text has been preserved, the M. is only partially visible.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="8">
-                           <p>The majority of the text (7 lines) is located within a thinly incised frame. D. M. is placed in the margins outside of this frame. These two letters, comparable in size to the rest of the text, are positioned in the top right and left hand corners, respectively, and are equidistant from the frame. The top of each letter lies on the same horizontal axis as the top part of the frame. Guide lines are visible in the main body of text, which is largely well laid out (barring the final line, which ends halfway across). </p>
+                           <p>The majority of the text (7 lines) is located within a thinly incised frame. D. M. is placed in the margins outside of this frame. These two letters, comparable in size to the rest of the text, are positioned in the top right and left hand corners, respectively, and are equidistant from the frame. The top of each letter lies on the same horizontal axis as the top part of the frame. Guide lines are visible in the main body of text, which is largely well laid out <!-- SUGGESTION: "evenly laid out" since there's no value judgement attached to that; also, suggest "campus" to describe the field where the writing is. -->(barring the final line, which ends halfway across). </p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -81,7 +69,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                      <handNote> M.
                         <height unit="cm">2.4cm</height>
                      </handNote>
-                     <handNote> P-longa in line 2
+                     <handNote> P-longa in line 2<!-- QUESTION: You mean line one?-->
                         <height unit="cm">3.5cm</height>
                      </handNote>
                      <handNote> Other letter heights line 2
@@ -107,25 +95,22 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                   </decoDesc>
                </physDesc>
                <history>
-                  <summary><!--use this section to summarize the history of the object --></summary>
+                  <summary><!--My boiler plate text for this is: "No information about provenance of this object prior to Columbia collection."--></summary>
                   <origin>
                      <origPlace type="location">Unknown</origPlace>
-                     <origDate notBefore="" notAfter=""/>
+                     <origDate notBefore="" notAfter=""/><!-- Suggest date: 2nd-3rd C., i.e. <origDate notBefore="0100" notAfter="0299">second or third century CE</origDate>-->
                   </origin>
-                  <!--add "provenance" elements as needed to express other key events in the modern history
-                      of this object-->
                   <provenance type="observed" notAfter="2012-10-19">
                      <ab>Identified in the Butler library collection not later than 19 October 2012.</ab>
                   </provenance>
                </history>
                <additional>
-                  <surrogates>
-                     <!--information about squeezes, photos, notebooks, and other unpublished material
-                         goes here-->
-                  </surrogates>
+                  <surrogates/>
                </additional>
             </msDesc>
-            <listBibl><!--unpublished inscription--></listBibl>
+            <listBibl>
+               <!-- <bibl><ptr type="rest-of-bibl" target="#unpub"/><biblScope type="item"/></bibl> -->
+            </listBibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -143,16 +128,11 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
       </revisionDesc>
    </teiHeader>
    <facsimile>
-       <!-- Information about digital images and other digital documents that should go with this
-            document should be encoded here.-->
+<!-- FYI I leave the elements <surface><desc/></surface> inside here as placeholders for the url to come and also so it validates.-->
     </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="la" xml:space="preserve">
-            <!-- The content of this "div" element is not (as of 2012-11-03-04:00) conformant
-                 EpiDoc. It is simply text that has been copied, leiden siglan and all, into this
-                 document from the initial spreadsheet. It will need to be converted into proper
-                 EpiDoc encoding.-->
             <div type="textpart" subtype="border">
                <ab>
                  <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
@@ -160,20 +140,23 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
             </div>
             <div type="textpart" subtype="body">
 <ab>
-<lb n="1"/><persName><name type="gentilicium" key="Pompeia">Pompeiae</name>  <persName type="praenomen" key="Gnaeus"><expan><abbr>Gn</abbr><ex>aei</ex></expan></persName> <expan><abbr>fil</abbr><ex>iae</ex></expan> <name type="cognomen" key="Augurina">Au <g type="hedera"/>
-<lb n="2" break="no"/>gurinae</name></persName> matri pien <g type="hedera"/>
-<lb n="3" break="no"/>tissimae <persName><name type="gentilicium" key="Aelius">Aelii</name><name type="praenomen" key="Publius">Publi</name></persName>
+<lb n="1"/><persName type="gentilicium" key="Pompeia">Pompeiae</persName> <persName type="praenomen" key="Gnaeus"><expan><abbr>Gn</abbr><ex>aei</ex></expan></persName> <expan><abbr>fil</abbr><ex>iae</ex></expan> <persName type="cognomen" key="Augurina">Au<!-- Again, suggest separating <persName> and <name type="">, so more like: <persName><name type="gentilicium" key="Pompeia"><hi rend="tall">P</hi>ompeiae</name> <persName><name type="praenomen" key="Gnaeus"><expan><abbr>Gn</abbr><ex>aei</ex></expan></name></persName> <expan><abbr>fil</abbr><ex>iae</ex></expan> <name type="cognomen" key="Augurina">Au<g type="hedera"/> -->
+<lb n="2" break="no"/>gurinae</persName> matri pien
+<lb n="3" break="no"/>tissimae <persName type="gentilicium" key="Aelius">Aelii</persName> <persName type="praenomen" key="Publius">Publi<!-- delete one "i" here--></persName><!-- <persName><persName><name type="gentilicium" key="Aelius">Aeli<hi rend="tall">i</hi></name> <persName><name type="praenomen" key="Publius">Publi</name></persName>
+<lb n="4"/> fili <name type="cognomen" key="Nigrinus">Nigrinus</name></persName> et <name type="cognomen" key="Augurina">Augu
+<lb n="5" type="worddiv"/>rina</name></persName>-->
 <lb n="4"/> fili <persName type="cognomen" key="Nigrinus">Nigrinus</persName> et <persName type="cognomen" key="Augurina">Augu
 <lb n="5" break="no"/>rina</persName> fecerunt liber
 <lb n="6" break="no"/>tis <expan><abbr>libertabusq</abbr><ex>ue</ex></expan> posteris
-<lb n="7" break="no"/><expan><abbr>q</abbr><ex>ue</ex></expan> eorum.</ab>
+<lb n="7" break="no"/><expan><abbr>q</abbr><ex>ue</ex></expan> eorum.<!--<space quantity="11" unit="character"/>--></ab>
          </div>
          <div type="translation" xml:lang="en">
             <ab>
                <lb n="1"/>To the sacred shades.
-               <lb n="2"/>For Pompeia Augurina, daughter of Gnaeus, most pious mother, the children of Publius, Aelius Nigrinus and Aelia Augurina, made (this) and for their freedmen and freedwomen and their descendants.
+               <lb n="2"/>For Pompeia Augurina, daughter of Gnaeus, most pious mother, the children of Publius Aelius, Nigrinus and Augurina, made (this) <!--(and)--> for their freedmen and freedwomen and their descendants. <!-- I prefer "Aelius Nigrinus and Aelia Augurina, children of Publius" as discussed, because I think it's more literal, but there's not really much difference in meaning. Also, whose freedmen and -women and whose descendants? I had assumed it would be the freedmen and -women of Pompeia Augurina actually, and obviously the descendants would refer to those of the freedmen and -women (as eorum makes clear), but I suppose it could equally be the freedmen and -women of P. Aelius Nigrinus and Aelia Augurina.-->
             </ab>
          </div>
+            <!-- </div> tag needed -->
       </body>
    </text>
 </TEI>

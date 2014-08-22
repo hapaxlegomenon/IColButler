@@ -1,0 +1,132 @@
+<?oxygen
+RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"
+?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>NY.NY.CU.Butl.L.22</title>
+                <editor>Joe Sheppard</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Columbia University</authority>
+                <idno type="filename">icolbutler-22</idno>
+                <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.22">NY.NY.CU.Butl.L.22</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Columbia University</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported,
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <region>NY</region>
+                        <settlement>NY</settlement>
+                        <institution>CU</institution>
+                        <repository>Butl</repository>
+                        <idno>22</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la"/>
+                        <msItem class="#funerary.epitaph">
+                            <p>Epitaph of Silania Euterpe</p>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc ana="#slab">
+                            <supportDesc ana="#stone.marble">
+                                <support>
+                                    <seg type="material">Fragmentary marble slab</seg>
+                                    <seg type="form">Slab</seg>
+                                    <dimensions type="surface" unit="cm">
+                                        <width>24.0</width>
+                                        <height>23.0</height>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragments.contig">
+                                    <p>Broken into five pieces, reassembled and  placed into plaster with a wooden frame. No trace of bottom edge.<!--Use free text to describe the condition of the support--></p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="6">
+                                </layout>
+                                <p>Sixth line not legible.</p>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc ana="#impressed.inscribed.chiseled">
+                            <handNote/>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote ana="#blank">
+                                <p>The campus is set into a raised border of double lines. Inscribed letters have been painted red.</p>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>George N. Olcott claims to have purchased this inscription from the excavation of the Via Ostiensis necropolis near San Paolo fuori le Mura in Rome and brought it to New York.</summary>
+                        <origin>
+                            <origPlace type="necropolis" ref="http://pleiades.stoa.org/places/423052">Necropolis of San Paolo fuori le Mura, Via Ostiense</origPlace>
+                            <placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
+                            <origDate notBefore="0150" notAfter="0299">late-2nd or 3rd century</origDate>
+                        </origin>                   
+                        <provenance type="observed" notBefore="1899-12-31" notAfter="1906-12-31">
+                            <ab>In a handwritten document in Butler library <bibl><ptr  target=""></ptr></bibl> George N. Olcott mentions this inscription coming from the same provenance as those documented in <bibl><ptr target="#AJA_Olcott3"/></bibl>, published in 1899.</ab>
+                        </provenance>
+                        <provenance type="observed" notAfter="2012-10-19">
+                            <ab>Identified in the Butler library collection not later than 19 October 2012.</ab>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+                <listBibl><bibl>
+                    <ptr type="rest-of-bibl" target="#unpub"></ptr>
+                </bibl></listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include href="http://dev.stg.brown.edu/projects/usepigraphy/xml/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for US Epigraphy controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+            <change who="JS" notAfter="2013-05-01">translated initial data into EpiDoc</change>
+            <change who="JS" when="2013-11-01">added the change log above</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <desc>
+                <!-- These elements are just interim placeholders so the document validates. I plan to use scans of the images already in use at Columbia's Butler library.-->
+            </desc>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+                <lb n="1"/><persName><name type="gentilicium" key="Aurelius"><expan><abbr>Aur</abbr><ex>elius</ex></expan></name><name type="cognomen" key="Eutychus"> Eutychus</name></persName>
+                <lb n="2"/><persName><name type="gentilicium" key="Silania">Silaniae</name> <name type="cognomen" key="Euterpe">Euterpe</name></persName>
+                <lb n="3"/><gap reason="lost" extent="3" unit="character" precision="medium"/><!-- What is medium precision? Well, I just counted the prvious line but in theory it could be different. -->coniug<choice ana="correction"><sic>e</sic><corr>i</corr></choice> suae
+                <lb n="4"/><gap reason="lost" extent="unknown" unit="character"></gap><supplied reason="lost" cert="low">co</supplied><unclear reason="damage" cert="high">n</unclear>paravit 
+                <lb n="5"/><gap reason="lost" extent="unknown" unit="character"></gap><supplied reason="lost">vix</supplied>it <expan><supplied reason="omitted"></supplied>ann<ex>is</ex></expan>
+                <lb n="6"/><gap reason="lost" extent="1" unit="line"></gap></ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <ab>Aurelius Eutychus prepared [this] for his wife Silania Euterpe [who] lived [...] years [...].</ab>
+            </div>
+        </body>
+    </text>
+</TEI>
+<!-- Olcott handwritten document, pp. 11-12: "Upper portion of a handsome stele of white marble, made up / of five fragments. The stele has a raised border and the inscription, in rustic letters, still shows the red pigment. The forms <u>coniuge</u> (dat.) and <u>[co]nparavitunderlined</u> are notable. From Via Ostiensis, with the precending. <u>Unpublished</u>." Drawing follows. Translation: "Aur(elius) Eutychus Silaniae Euterpe conug<i> suae [locum? co]nparavit, [quae  vix]it ann. [................]" -->
