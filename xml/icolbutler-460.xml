@@ -27,46 +27,30 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <!-- this is how USEP constructs their own identifers; would Columbia prefer an 
-                       internal system and construct USEP identifiers as "altIdentifier"? -->
                   <region>NY</region>
                   <settlement>NY</settlement>
                   <institution>CU</institution>
                   <repository>Butl</repository>
                   <idno>460</idno>
-                  <!-- use altIdentifier elements, as appropriate, to provide information about other 
-                       inventory numbers, past and present -->
-               </msIdentifier>
+                </msIdentifier>
                <msContents>
-                  <!--Describe the text, its disposition, and languages here -->
                   <textLang mainLang="la"/>
                   <msItem class="#funerary.epitaph">
-                     <!-- the value of the "class" attribute on the "msItem" element, as well as the 
-                          content of the paragraph below have been mined from the original spreadsheet;
-                          they should be checked and adjusted for accuracy and completeness. Note that
-                          the paragraph content here should describe the text, not the text-bearing
-                          object (for the latter, see the "physDesc" element) -->
-                     <p>Epitaph of M. Publilius Lupercus the Doctor and Surgeon</p>
+                     <p>Epitaph of M. Publilius Lupercus Doctor and Surgeon</p>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc ana="#slab">
-                     <!-- describe the text-bearing object, its condition and history here -->
                      <supportDesc ana="#stone.marble">
                         <support>
-                           <!-- Current USEP documents do not seem to use the "objectType" or "material"
-                                elements; rather, they use seg@type=material and seg@type=form; need to
-                                check with USEP about this -->
-                           <!-- Unable to parse values for the "ana" attribute on the "objectDesc"
-                                nor for the "objectType" element to be included in the paragraph
-                                below. These will need to be added manually.-->
-                           <p>Mounted, rectangular, marble tablet.</p>
+                          <p>Mounted, rectangular, marble tablet.
                               <dimensions type="surface" unit="cm">
                                  <width>27.9</width>
                                  <height>12.1</height>
                                  <depth>Mounted, no depth</depth>
                                  <!-- original string: ""-->
                               </dimensions>
+                          </p>    
                         </support>
                         <condition ana="#complete.broken">
                            <!--provide appropriate values for the "ana" attribute from the USEP vocabulary-->
@@ -75,7 +59,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="4">
-                           <p>Text bordered by incised triangles that act as borders on left and right sides. No obvious indications of guidelines.<!--Use free text to describe the layout of the text on the support--></p>
+                           <p>Text bordered by incised triangles that act as borders on left and right sides. No obvious indications of guidelines. Text at lines 3 and 4 are not centered.<!--Use free text to describe the layout of the text on the support--></p>
                         </layout>
                         <layout>Textual plane dimensions
                            <height unit="cm">12.1</height>
@@ -84,7 +68,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc ana="#impressed.inscribed.chiseled">
-                     <handNote>Third and fourth lines of text are not centered.
+                     <handNote>Third and fourth lines of text are not centered. Addition of v in Lupercus, smaller and seemingly inserted later as a correction.
                      </handNote>
                   <decoDesc>
                      <decoNote ana="">
@@ -100,23 +84,19 @@
                <history>
                   <summary><!--use this section to summarize the history of the object --></summary>
                   <origin>
-                     <origPlace type="location"/>
+                     <origPlace type="location"/>Unknown</origPlace>
                      <origDate notBefore="" notAfter=""/>
                   </origin>
-                  <!--add "provenance" elements as needed to express other key events in the modern history
-                      of this object-->
                   <provenance type="observed" notAfter="2012-10-19">
                      <ab>Identified in the Butler library collection not later than 19 October 2012.</ab>
                   </provenance>
                </history>
                <additional>
                   <surrogates>
-                     <!--information about squeezes, photos, notebooks, and other unpublished material
-                         goes here-->
                   </surrogates>
                </additional>
             </msDesc>
-            <listBibl><!--unpublished inscription--></listBibl>
+            <listBibl>Unpublished</listBibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -128,22 +108,17 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+         <change when="2014-5" who="SAL">Translation and transcription.  Additional markups and edits</change>
+         <change when="2014-8" who="SAL">Markups to text and hand desription</change>
       </revisionDesc>
-          <change when="2014-7-31" who="SAL">SAL marked up, edited transcription, added translation.</change>
-   </teiHeader>
-   <facsimile>
-       <!-- Information about digital images and other digital documents that should go with this
-            document should be encoded here.-->
+    </teiHeader>
+    <facsimile>
     </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="la" xml:space="preserve">
-            <!-- The content of this "div" element is not (as of 2012-11-03-04:00) conformant
-                 EpiDoc. It is simply text that has been copied, leiden siglan and all, into this
-                 document from the initial spreadsheet. It will need to be converted into proper
-                 EpiDoc encoding.-->
             <ab>
-               <lb n="1"/>M Publilius Lupercus
+               <lb n="1"/>M Publilius Luperc<add place="right">u</add>s
                <lb n="2"/>Medicus Chirurgus
                <lb n="3"/>vixit annos <add><num value="23">XXIII</num></add>
                <lb n="4"/>prima barba</ab>
