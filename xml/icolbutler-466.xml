@@ -38,7 +38,7 @@
                <msContents>
                   <!--Describe the text, its disposition, and languages here -->
                   <textLang mainLang="greek"/>
-                  <msItem class="#text_unknown">
+                  <msItem class="#text_unknown" class="#funerary.epitaph">
                      <!-- the value of the "class" attribute on the "msItem" element, as well as the 
                           content of the paragraph below have been mined from the original spreadsheet;
                           they should be checked and adjusted for accuracy and completeness. Note that
