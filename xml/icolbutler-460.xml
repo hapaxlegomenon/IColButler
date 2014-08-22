@@ -118,8 +118,8 @@
       <body>
          <div type="edition" xml:lang="la" xml:space="preserve">
             <ab>
-               <lb n="1"/>M Publilius Luperc<add place="right">u</add>s
-               <lb n="2"/>Medicus Chirurgus
+               <lb n="1"/><persName><name type="praenomen">M</name><name type="gentilicium">Publilius</name><name type="cognomen">Luperc<add place="right">u</add>s</name></persName>
+               <lb n="2"/><w lemma="Medicus" key="Medicus">Medicus</w> <w lemma="Chirurgus" key="Chirurgus">Chirurgus</w>
                <lb n="3"/>vixit annos <add><num value="23">XXIII</num></add>
                <lb n="4"/>prima barba</ab>
          </div>
