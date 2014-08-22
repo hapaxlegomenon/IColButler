@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml"
-   schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?oxygen RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"?>
     
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Epitaph of Melie</title>
-            <!-- Use "editor" elements to list each of the editors of this text -->
+            <title>NY.NY.CU.Butl.L.465</title>
+            <editor>Stephen Anthony LaMonica</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Columbia University</authority>
@@ -42,34 +40,21 @@
                   <!--Describe the text, its disposition, and languages here -->
                   <textLang mainLang="la"/>
                   <msItem class="#funerary.epitaph">
-                     <!-- the value of the "class" attribute on the "msItem" element, as well as the 
-                          content of the paragraph below have been mined from the original spreadsheet;
-                          they should be checked and adjusted for accuracy and completeness. Note that
-                          the paragraph content here should describe the text, not the text-bearing
-                          object (for the latter, see the "physDesc" element) -->
                      <p>Epitaph of Melie</p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc ana="">
-                     <!-- describe the text-bearing object, its condition and history here -->
-                     <supportDesc>
+                  <objectDesc ana="#slab">
+                     <supportDesc ana="#stone.marble">
                         <support>
-                           <!-- Current USEP documents do not seem to use the "objectType" or "material"
-                                elements; rather, they use seg@type=material and seg@type=form; need to
-                                check with USEP about this -->
-                           <!-- Unable to parse values for the "ana" attribute on the "objectDesc"
-                                nor for the "objectType" element to be included in the paragraph
-                                below. These will need to be added manually.-->
                            <p><material>marble</material>; 
                               <dimensions type="" unit="cm">
-                                 <!-- original string: "34 x 17 x 3"-->
                                  <width>34</width>
                                  <height>17</height>
                                  <depth>3</depth>
                               </dimensions>.</p>
                         </support>
-                        <condition ana="">
+                        <condition ana="#complete">
                            <!--provide appropriate values for the "ana" attribute from the USEP vocabulary-->
                            <p><!--Use free text to describe the condition of the support--></p>
                         </condition>
@@ -123,20 +108,14 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-       <!-- Information about digital images and other digital documents that should go with this
-            document should be encoded here.-->
-    </facsimile>
+   </facsimile>
    <text>
       <body>
-         <div type="edition" xml:lang="la" xml:space="preserve">
-            <!-- The content of this "div" element is not (as of 2012-11-03-04:00) conformant
-                 EpiDoc. It is simply text that has been copied, leiden siglan and all, into this
-                 document from the initial spreadsheet. It will need to be converted into proper
-                 EpiDoc encoding.-->
-            <ab>MELIE • V • A • VII PIERIS • MATER • ET • DIVS • PATER FECERVNT</ab>
+         <div type="textpart" subtype="body"/>
+            <ab><lb="1"></lb><persNam type="cognomen" key="Melie">Melie</persNam> <g type="interpunct"></g> <expan><abbr>V</abbr><ex>ixit</ex></expan> <g type="interpunct"></g> <expan><abbr>A</abbr><ex>nnos</ex></expan> <g type="interpunct"></g> <num value="7">VII</num> pieris <g type="interpunct"></g> mater <g type="interpunct"></g> et <g type="interpunct"></g> dius <g type="interpunct"></g> pater fecerunt</ab>
          </div>
          <div type="translation" xml:lang="en">
-            <ab/>
+            <p>Melie, lived 7 years, you appease; mother, father, and God made this (?)</p>
          </div>
       </body>
    </text>
